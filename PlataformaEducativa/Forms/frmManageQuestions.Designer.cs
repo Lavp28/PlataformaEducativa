@@ -43,7 +43,7 @@ namespace PlataformaEducativa.Forms
         	// cmbModulos
         	// 
         	this.cmbModulos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-        	this.cmbModulos.Location = new System.Drawing.Point(120, 18);
+        	this.cmbModulos.Location = new System.Drawing.Point(120, 106);
         	this.cmbModulos.Name = "cmbModulos";
         	this.cmbModulos.Size = new System.Drawing.Size(200, 21);
         	this.cmbModulos.TabIndex = 0;
@@ -52,7 +52,7 @@ namespace PlataformaEducativa.Forms
         	// dgvPreguntas
         	// 
         	this.dgvPreguntas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(140)))), ((int)(((byte)(93)))));
-        	this.dgvPreguntas.Location = new System.Drawing.Point(20, 50);
+        	this.dgvPreguntas.Location = new System.Drawing.Point(20, 138);
         	this.dgvPreguntas.MultiSelect = false;
         	this.dgvPreguntas.Name = "dgvPreguntas";
         	this.dgvPreguntas.ReadOnly = true;
@@ -63,21 +63,21 @@ namespace PlataformaEducativa.Forms
         	// 
         	// txtPreguntaEs
         	// 
-        	this.txtPreguntaEs.Location = new System.Drawing.Point(150, 218);
+        	this.txtPreguntaEs.Location = new System.Drawing.Point(150, 306);
         	this.txtPreguntaEs.Name = "txtPreguntaEs";
         	this.txtPreguntaEs.Size = new System.Drawing.Size(370, 20);
         	this.txtPreguntaEs.TabIndex = 2;
         	// 
         	// txtPreguntaEn
         	// 
-        	this.txtPreguntaEn.Location = new System.Drawing.Point(150, 248);
+        	this.txtPreguntaEn.Location = new System.Drawing.Point(150, 336);
         	this.txtPreguntaEn.Name = "txtPreguntaEn";
         	this.txtPreguntaEn.Size = new System.Drawing.Size(370, 20);
         	this.txtPreguntaEn.TabIndex = 3;
         	// 
         	// txtImagePath
         	// 
-        	this.txtImagePath.Location = new System.Drawing.Point(150, 278);
+        	this.txtImagePath.Location = new System.Drawing.Point(150, 366);
         	this.txtImagePath.Name = "txtImagePath";
         	this.txtImagePath.Size = new System.Drawing.Size(270, 20);
         	this.txtImagePath.TabIndex = 4;
@@ -86,7 +86,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.btnExaminarImagen.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnExaminarImagen.BackgroundImage")));
         	this.btnExaminarImagen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-        	this.btnExaminarImagen.Location = new System.Drawing.Point(430, 276);
+        	this.btnExaminarImagen.Location = new System.Drawing.Point(430, 364);
         	this.btnExaminarImagen.Name = "btnExaminarImagen";
         	this.btnExaminarImagen.Size = new System.Drawing.Size(90, 23);
         	this.btnExaminarImagen.TabIndex = 5;
@@ -127,7 +127,7 @@ namespace PlataformaEducativa.Forms
         	this.labelModulo.AutoSize = true;
         	this.labelModulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
         	this.labelModulo.Image = ((System.Drawing.Image)(resources.GetObject("labelModulo.Image")));
-        	this.labelModulo.Location = new System.Drawing.Point(20, 21);
+        	this.labelModulo.Location = new System.Drawing.Point(20, 109);
         	this.labelModulo.Name = "labelModulo";
         	this.labelModulo.Size = new System.Drawing.Size(52, 13);
         	this.labelModulo.TabIndex = 9;
@@ -138,7 +138,7 @@ namespace PlataformaEducativa.Forms
         	this.labelPreguntaEs.AutoSize = true;
         	this.labelPreguntaEs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
         	this.labelPreguntaEs.Image = ((System.Drawing.Image)(resources.GetObject("labelPreguntaEs.Image")));
-        	this.labelPreguntaEs.Location = new System.Drawing.Point(20, 221);
+        	this.labelPreguntaEs.Location = new System.Drawing.Point(20, 309);
         	this.labelPreguntaEs.Name = "labelPreguntaEs";
         	this.labelPreguntaEs.Size = new System.Drawing.Size(119, 13);
         	this.labelPreguntaEs.TabIndex = 10;
@@ -149,7 +149,7 @@ namespace PlataformaEducativa.Forms
         	this.labelPreguntaEn.AutoSize = true;
         	this.labelPreguntaEn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
         	this.labelPreguntaEn.Image = ((System.Drawing.Image)(resources.GetObject("labelPreguntaEn.Image")));
-        	this.labelPreguntaEn.Location = new System.Drawing.Point(20, 251);
+        	this.labelPreguntaEn.Location = new System.Drawing.Point(20, 339);
         	this.labelPreguntaEn.Name = "labelPreguntaEn";
         	this.labelPreguntaEn.Size = new System.Drawing.Size(108, 13);
         	this.labelPreguntaEn.TabIndex = 11;
@@ -160,7 +160,7 @@ namespace PlataformaEducativa.Forms
         	this.labelImagen.AutoSize = true;
         	this.labelImagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
         	this.labelImagen.Image = ((System.Drawing.Image)(resources.GetObject("labelImagen.Image")));
-        	this.labelImagen.Location = new System.Drawing.Point(20, 281);
+        	this.labelImagen.Location = new System.Drawing.Point(20, 369);
         	this.labelImagen.Name = "labelImagen";
         	this.labelImagen.Size = new System.Drawing.Size(86, 13);
         	this.labelImagen.TabIndex = 12;

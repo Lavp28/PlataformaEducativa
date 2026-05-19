@@ -118,6 +118,9 @@
     <EmbeddedResource Include="Forms\frmManageQuestions.resx">
       <DependentUpon>frmManageQuestions.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmManageUsers.resx">
+      <DependentUpon>frmManageUsers.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

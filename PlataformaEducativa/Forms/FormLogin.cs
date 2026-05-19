@@ -78,12 +78,14 @@ namespace PlataformaEducativa.Forms
         	// 
         	// btnLogin
         	// 
+        	this.btnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogin.BackgroundImage")));
         	this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+        	this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
         	this.btnLogin.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnLogin.ForeColor = System.Drawing.Color.Black;
-        	this.btnLogin.Location = new System.Drawing.Point(265, 137);
+        	this.btnLogin.Location = new System.Drawing.Point(267, 134);
         	this.btnLogin.Name = "btnLogin";
-        	this.btnLogin.Size = new System.Drawing.Size(118, 33);
+        	this.btnLogin.Size = new System.Drawing.Size(120, 36);
         	this.btnLogin.TabIndex = 2;
         	this.btnLogin.Text = "Ingresar";
         	this.btnLogin.UseVisualStyleBackColor = true;
