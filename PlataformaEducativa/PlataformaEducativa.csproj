@@ -109,6 +109,9 @@
     <EmbeddedResource Include="Forms\frmGame.resx">
       <DependentUpon>frmGame.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmJugadorMain.resx">
+      <DependentUpon>frmJugadorMain.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

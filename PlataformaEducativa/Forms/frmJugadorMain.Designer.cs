@@ -19,96 +19,167 @@ namespace PlataformaEducativa.Forms
 
         private void InitializeComponent()
         {
-            this.lblPuntajeTotal = new System.Windows.Forms.Label();
-            this.cmbModulosJugar = new System.Windows.Forms.ComboBox();
-            this.btnJugar = new System.Windows.Forms.Button();
-            this.btnCerrarSesion = new System.Windows.Forms.Button();
-            this.lblRankingModulo = new System.Windows.Forms.Label();
-            this.cmbRankingModulo = new System.Windows.Forms.ComboBox();
-            this.dgvRanking = new System.Windows.Forms.DataGridView();
-            this.grpMisEstadisticas = new System.Windows.Forms.GroupBox();
-            this.lblMiModulo = new System.Windows.Forms.Label();
-            this.lblMisCorrectas = new System.Windows.Forms.Label();
-            this.lblMisIncorrectas = new System.Windows.Forms.Label();
-            this.lblMiPuntaje = new System.Windows.Forms.Label();
+        	System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmJugadorMain));
+        	this.lblPuntajeTotal = new System.Windows.Forms.Label();
+        	this.cmbModulosJugar = new System.Windows.Forms.ComboBox();
+        	this.btnJugar = new System.Windows.Forms.Button();
+        	this.btnCerrarSesion = new System.Windows.Forms.Button();
+        	this.lblRankingModulo = new System.Windows.Forms.Label();
+        	this.cmbRankingModulo = new System.Windows.Forms.ComboBox();
+        	this.dgvRanking = new System.Windows.Forms.DataGridView();
+        	this.grpMisEstadisticas = new System.Windows.Forms.GroupBox();
+        	this.lblMiModulo = new System.Windows.Forms.Label();
+        	this.lblMisCorrectas = new System.Windows.Forms.Label();
+        	this.lblMisIncorrectas = new System.Windows.Forms.Label();
+        	this.lblMiPuntaje = new System.Windows.Forms.Label();
+        	this.pictureBox1 = new System.Windows.Forms.PictureBox();
+        	((System.ComponentModel.ISupportInitialize)(this.dgvRanking)).BeginInit();
+        	this.grpMisEstadisticas.SuspendLayout();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+        	this.SuspendLayout();
+        	// 
+        	// lblPuntajeTotal
+        	// 
+        	this.lblPuntajeTotal.AutoSize = true;
+        	this.lblPuntajeTotal.Location = new System.Drawing.Point(789, 19);
+        	this.lblPuntajeTotal.Name = "lblPuntajeTotal";
+        	this.lblPuntajeTotal.Size = new System.Drawing.Size(78, 13);
+        	this.lblPuntajeTotal.TabIndex = 0;
+        	this.lblPuntajeTotal.Text = "Puntaje total: 0";
+        	// 
+        	// cmbModulosJugar
+        	// 
+        	this.cmbModulosJugar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+        	this.cmbModulosJugar.Location = new System.Drawing.Point(50, 16);
+        	this.cmbModulosJugar.Name = "cmbModulosJugar";
+        	this.cmbModulosJugar.Size = new System.Drawing.Size(200, 21);
+        	this.cmbModulosJugar.TabIndex = 1;
+        	// 
+        	// btnJugar
+        	// 
+        	this.btnJugar.Location = new System.Drawing.Point(50, 55);
+        	this.btnJugar.Name = "btnJugar";
+        	this.btnJugar.Size = new System.Drawing.Size(100, 30);
+        	this.btnJugar.TabIndex = 2;
+        	this.btnJugar.Text = "Jugar";
+        	this.btnJugar.Click += new System.EventHandler(this.btnJugar_Click);
+        	// 
+        	// btnCerrarSesion
+        	// 
+        	this.btnCerrarSesion.Location = new System.Drawing.Point(156, 55);
+        	this.btnCerrarSesion.Name = "btnCerrarSesion";
+        	this.btnCerrarSesion.Size = new System.Drawing.Size(100, 30);
+        	this.btnCerrarSesion.TabIndex = 3;
+        	this.btnCerrarSesion.Text = "Cerrar sesión";
+        	this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
+        	// 
+        	// lblRankingModulo
+        	// 
+        	this.lblRankingModulo.AutoSize = true;
+        	this.lblRankingModulo.Location = new System.Drawing.Point(530, 90);
+        	this.lblRankingModulo.Name = "lblRankingModulo";
+        	this.lblRankingModulo.Size = new System.Drawing.Size(105, 13);
+        	this.lblRankingModulo.TabIndex = 4;
+        	this.lblRankingModulo.Text = "Ranking por módulo:";
+        	// 
+        	// cmbRankingModulo
+        	// 
+        	this.cmbRankingModulo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+        	this.cmbRankingModulo.Location = new System.Drawing.Point(653, 90);
+        	this.cmbRankingModulo.Name = "cmbRankingModulo";
+        	this.cmbRankingModulo.Size = new System.Drawing.Size(200, 21);
+        	this.cmbRankingModulo.TabIndex = 5;
+        	this.cmbRankingModulo.SelectedIndexChanged += new System.EventHandler(this.cmbRankingModulo_SelectedIndexChanged);
+        	// 
+        	// dgvRanking
+        	// 
+        	this.dgvRanking.AllowUserToAddRows = false;
+        	this.dgvRanking.AllowUserToDeleteRows = false;
+        	this.dgvRanking.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+        	this.dgvRanking.Location = new System.Drawing.Point(36, 124);
+        	this.dgvRanking.Name = "dgvRanking";
+        	this.dgvRanking.ReadOnly = true;
+        	this.dgvRanking.Size = new System.Drawing.Size(500, 200);
+        	this.dgvRanking.TabIndex = 6;
+        	// 
+        	// grpMisEstadisticas
+        	// 
+        	this.grpMisEstadisticas.Controls.Add(this.lblMiModulo);
+        	this.grpMisEstadisticas.Controls.Add(this.lblMisCorrectas);
+        	this.grpMisEstadisticas.Controls.Add(this.lblMisIncorrectas);
+        	this.grpMisEstadisticas.Controls.Add(this.lblMiPuntaje);
+        	this.grpMisEstadisticas.Location = new System.Drawing.Point(36, 345);
+        	this.grpMisEstadisticas.Name = "grpMisEstadisticas";
+        	this.grpMisEstadisticas.Size = new System.Drawing.Size(500, 80);
+        	this.grpMisEstadisticas.TabIndex = 7;
+        	this.grpMisEstadisticas.TabStop = false;
+        	this.grpMisEstadisticas.Text = "Mis estadísticas en este módulo";
+        	// 
+        	// lblMiModulo
+        	// 
+        	this.lblMiModulo.AutoSize = true;
+        	this.lblMiModulo.Location = new System.Drawing.Point(20, 25);
+        	this.lblMiModulo.Name = "lblMiModulo";
+        	this.lblMiModulo.Size = new System.Drawing.Size(0, 13);
+        	this.lblMiModulo.TabIndex = 0;
+        	// 
+        	// lblMisCorrectas
+        	// 
+        	this.lblMisCorrectas.AutoSize = true;
+        	this.lblMisCorrectas.Location = new System.Drawing.Point(20, 50);
+        	this.lblMisCorrectas.Name = "lblMisCorrectas";
+        	this.lblMisCorrectas.Size = new System.Drawing.Size(0, 13);
+        	this.lblMisCorrectas.TabIndex = 1;
+        	// 
+        	// lblMisIncorrectas
+        	// 
+        	this.lblMisIncorrectas.AutoSize = true;
+        	this.lblMisIncorrectas.Location = new System.Drawing.Point(200, 50);
+        	this.lblMisIncorrectas.Name = "lblMisIncorrectas";
+        	this.lblMisIncorrectas.Size = new System.Drawing.Size(0, 13);
+        	this.lblMisIncorrectas.TabIndex = 2;
+        	// 
+        	// lblMiPuntaje
+        	// 
+        	this.lblMiPuntaje.AutoSize = true;
+        	this.lblMiPuntaje.Location = new System.Drawing.Point(380, 50);
+        	this.lblMiPuntaje.Name = "lblMiPuntaje";
+        	this.lblMiPuntaje.Size = new System.Drawing.Size(0, 13);
+        	this.lblMiPuntaje.TabIndex = 3;
+        	// 
+        	// pictureBox1
+        	// 
+        	this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+        	this.pictureBox1.Location = new System.Drawing.Point(562, 124);
+        	this.pictureBox1.Name = "pictureBox1";
+        	this.pictureBox1.Size = new System.Drawing.Size(291, 262);
+        	this.pictureBox1.TabIndex = 8;
+        	this.pictureBox1.TabStop = false;
+        	// 
+        	// frmJugadorMain
+        	// 
+        	this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+        	this.ClientSize = new System.Drawing.Size(901, 450);
+        	this.Controls.Add(this.pictureBox1);
+        	this.Controls.Add(this.lblPuntajeTotal);
+        	this.Controls.Add(this.cmbModulosJugar);
+        	this.Controls.Add(this.btnJugar);
+        	this.Controls.Add(this.btnCerrarSesion);
+        	this.Controls.Add(this.lblRankingModulo);
+        	this.Controls.Add(this.cmbRankingModulo);
+        	this.Controls.Add(this.dgvRanking);
+        	this.Controls.Add(this.grpMisEstadisticas);
+        	this.Name = "frmJugadorMain";
+        	this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+        	this.Text = "Jugador";
+        	((System.ComponentModel.ISupportInitialize)(this.dgvRanking)).EndInit();
+        	this.grpMisEstadisticas.ResumeLayout(false);
+        	this.grpMisEstadisticas.PerformLayout();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+        	this.ResumeLayout(false);
+        	this.PerformLayout();
 
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRanking)).BeginInit();
-            this.grpMisEstadisticas.SuspendLayout();
-            this.SuspendLayout();
-
-            // lblPuntajeTotal
-            this.lblPuntajeTotal.AutoSize = true;
-            this.lblPuntajeTotal.Location = new System.Drawing.Point(50, 20);
-            this.lblPuntajeTotal.Text = "Puntaje total: 0";
-
-            // cmbModulosJugar
-            this.cmbModulosJugar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbModulosJugar.Location = new System.Drawing.Point(50, 50);
-            this.cmbModulosJugar.Size = new System.Drawing.Size(200, 21);
-
-            // btnJugar
-            this.btnJugar.Location = new System.Drawing.Point(50, 90);
-            this.btnJugar.Size = new System.Drawing.Size(100, 30);
-            this.btnJugar.Text = "Jugar";
-            this.btnJugar.Click += new System.EventHandler(this.btnJugar_Click);
-
-            // btnCerrarSesion
-            this.btnCerrarSesion.Location = new System.Drawing.Point(160, 90);
-            this.btnCerrarSesion.Size = new System.Drawing.Size(100, 30);
-            this.btnCerrarSesion.Text = "Cerrar sesión";
-            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
-
-            // lblRankingModulo
-            this.lblRankingModulo.AutoSize = true;
-            this.lblRankingModulo.Location = new System.Drawing.Point(50, 140);
-            this.lblRankingModulo.Text = "Ranking por módulo:";
-
-            // cmbRankingModulo
-            this.cmbRankingModulo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbRankingModulo.Location = new System.Drawing.Point(180, 137);
-            this.cmbRankingModulo.Size = new System.Drawing.Size(200, 21);
-            this.cmbRankingModulo.SelectedIndexChanged += new System.EventHandler(this.cmbRankingModulo_SelectedIndexChanged);
-
-            // dgvRanking
-            this.dgvRanking.AllowUserToAddRows = false;
-            this.dgvRanking.AllowUserToDeleteRows = false;
-            this.dgvRanking.Location = new System.Drawing.Point(50, 170);
-            this.dgvRanking.Size = new System.Drawing.Size(500, 200);
-            this.dgvRanking.ReadOnly = true;
-            this.dgvRanking.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-
-            // grpMisEstadisticas
-            this.grpMisEstadisticas.Location = new System.Drawing.Point(50, 380);
-            this.grpMisEstadisticas.Size = new System.Drawing.Size(500, 80);
-            this.grpMisEstadisticas.Text = "Mis estadísticas en este módulo";
-            this.grpMisEstadisticas.Controls.Add(this.lblMiModulo);
-            this.grpMisEstadisticas.Controls.Add(this.lblMisCorrectas);
-            this.grpMisEstadisticas.Controls.Add(this.lblMisIncorrectas);
-            this.grpMisEstadisticas.Controls.Add(this.lblMiPuntaje);
-
-            this.lblMiModulo.AutoSize = true; this.lblMiModulo.Location = new System.Drawing.Point(20, 25);
-            this.lblMisCorrectas.AutoSize = true; this.lblMisCorrectas.Location = new System.Drawing.Point(20, 50);
-            this.lblMisIncorrectas.AutoSize = true; this.lblMisIncorrectas.Location = new System.Drawing.Point(200, 50);
-            this.lblMiPuntaje.AutoSize = true; this.lblMiPuntaje.Location = new System.Drawing.Point(380, 50);
-
-            // frmJugadorMain
-            this.ClientSize = new System.Drawing.Size(600, 500);
-            this.Text = "Jugador";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Controls.Add(this.lblPuntajeTotal);
-            this.Controls.Add(this.cmbModulosJugar);
-            this.Controls.Add(this.btnJugar);
-            this.Controls.Add(this.btnCerrarSesion);
-            this.Controls.Add(this.lblRankingModulo);
-            this.Controls.Add(this.cmbRankingModulo);
-            this.Controls.Add(this.dgvRanking);
-            this.Controls.Add(this.grpMisEstadisticas);
-
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRanking)).EndInit();
-            this.grpMisEstadisticas.ResumeLayout(false);
-            this.grpMisEstadisticas.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
         }
 
         // Declaraciones únicas
@@ -119,5 +190,6 @@ namespace PlataformaEducativa.Forms
         private System.Windows.Forms.DataGridView dgvRanking;
         private System.Windows.Forms.GroupBox grpMisEstadisticas;
         private System.Windows.Forms.Label lblMiModulo, lblMisCorrectas, lblMisIncorrectas, lblMiPuntaje;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
