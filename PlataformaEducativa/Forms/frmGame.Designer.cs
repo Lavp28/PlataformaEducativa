@@ -56,9 +56,9 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.rbOpcion2.BackColor = System.Drawing.Color.Transparent;
         	this.rbOpcion2.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion2.Image")));
-        	this.rbOpcion2.Location = new System.Drawing.Point(43, 285);
+        	this.rbOpcion2.Location = new System.Drawing.Point(20, 273);
         	this.rbOpcion2.Name = "rbOpcion2";
-        	this.rbOpcion2.Size = new System.Drawing.Size(269, 67);
+        	this.rbOpcion2.Size = new System.Drawing.Size(335, 91);
         	this.rbOpcion2.TabIndex = 5;
         	this.rbOpcion2.UseVisualStyleBackColor = false;
         	// 
