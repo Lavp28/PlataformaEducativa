@@ -97,6 +97,7 @@ namespace PlataformaEducativa.Forms
         	this.btnResponder.BackColor = System.Drawing.Color.Transparent;
         	this.btnResponder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnResponder.BackgroundImage")));
         	this.btnResponder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+        	this.btnResponder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
         	this.btnResponder.ForeColor = System.Drawing.Color.Black;
         	this.btnResponder.Image = ((System.Drawing.Image)(resources.GetObject("btnResponder.Image")));
         	this.btnResponder.Location = new System.Drawing.Point(54, 603);
@@ -110,7 +111,8 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.btnCambiarIdioma.BackColor = System.Drawing.Color.Transparent;
         	this.btnCambiarIdioma.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCambiarIdioma.BackgroundImage")));
-        	this.btnCambiarIdioma.ForeColor = System.Drawing.Color.Transparent;
+        	this.btnCambiarIdioma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+        	this.btnCambiarIdioma.ForeColor = System.Drawing.Color.Black;
         	this.btnCambiarIdioma.Image = ((System.Drawing.Image)(resources.GetObject("btnCambiarIdioma.Image")));
         	this.btnCambiarIdioma.Location = new System.Drawing.Point(810, 592);
         	this.btnCambiarIdioma.Name = "btnCambiarIdioma";

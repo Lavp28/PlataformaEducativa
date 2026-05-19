@@ -41,9 +41,10 @@ namespace PlataformaEducativa.Forms
         	// lblPuntajeTotal
         	// 
         	this.lblPuntajeTotal.AutoSize = true;
-        	this.lblPuntajeTotal.Location = new System.Drawing.Point(789, 19);
+        	this.lblPuntajeTotal.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold);
+        	this.lblPuntajeTotal.Location = new System.Drawing.Point(692, 16);
         	this.lblPuntajeTotal.Name = "lblPuntajeTotal";
-        	this.lblPuntajeTotal.Size = new System.Drawing.Size(78, 13);
+        	this.lblPuntajeTotal.Size = new System.Drawing.Size(152, 23);
         	this.lblPuntajeTotal.TabIndex = 0;
         	this.lblPuntajeTotal.Text = "Puntaje total: 0";
         	// 
@@ -57,6 +58,8 @@ namespace PlataformaEducativa.Forms
         	// 
         	// btnJugar
         	// 
+        	this.btnJugar.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+        	this.btnJugar.Image = ((System.Drawing.Image)(resources.GetObject("btnJugar.Image")));
         	this.btnJugar.Location = new System.Drawing.Point(50, 55);
         	this.btnJugar.Name = "btnJugar";
         	this.btnJugar.Size = new System.Drawing.Size(100, 30);
@@ -66,6 +69,8 @@ namespace PlataformaEducativa.Forms
         	// 
         	// btnCerrarSesion
         	// 
+        	this.btnCerrarSesion.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold);
+        	this.btnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion.Image")));
         	this.btnCerrarSesion.Location = new System.Drawing.Point(156, 55);
         	this.btnCerrarSesion.Name = "btnCerrarSesion";
         	this.btnCerrarSesion.Size = new System.Drawing.Size(100, 30);
@@ -151,7 +156,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
         	this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-        	this.pictureBox1.Location = new System.Drawing.Point(562, 124);
+        	this.pictureBox1.Location = new System.Drawing.Point(576, 194);
         	this.pictureBox1.Name = "pictureBox1";
         	this.pictureBox1.Size = new System.Drawing.Size(291, 262);
         	this.pictureBox1.TabIndex = 8;
@@ -179,6 +184,7 @@ namespace PlataformaEducativa.Forms
         	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
         	this.ResumeLayout(false);
         	this.PerformLayout();
+
         }
 
         // Declaraciones únicas

@@ -67,6 +67,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	// txtPassword
         	// 
+        	this.txtPassword.BackColor = System.Drawing.Color.White;
         	this.txtPassword.Location = new System.Drawing.Point(246, 94);
         	this.txtPassword.Name = "txtPassword";
         	this.txtPassword.PasswordChar = '*';

@@ -40,6 +40,7 @@ namespace PlataformaEducativa.Forms
         	// btnManageUsers
         	// 
         	this.btnManageUsers.BackColor = System.Drawing.Color.Transparent;
+        	this.btnManageUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
         	this.btnManageUsers.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnManageUsers.Image = ((System.Drawing.Image)(resources.GetObject("btnManageUsers.Image")));
         	this.btnManageUsers.Location = new System.Drawing.Point(257, 132);
@@ -52,7 +53,9 @@ namespace PlataformaEducativa.Forms
         	// btnManageModules
         	// 
         	this.btnManageModules.BackColor = System.Drawing.Color.Transparent;
+        	this.btnManageModules.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
         	this.btnManageModules.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+        	this.btnManageModules.ForeColor = System.Drawing.Color.Black;
         	this.btnManageModules.Image = ((System.Drawing.Image)(resources.GetObject("btnManageModules.Image")));
         	this.btnManageModules.Location = new System.Drawing.Point(30, 132);
         	this.btnManageModules.Name = "btnManageModules";
@@ -64,6 +67,7 @@ namespace PlataformaEducativa.Forms
         	// btnManageQuestions
         	// 
         	this.btnManageQuestions.BackColor = System.Drawing.Color.Transparent;
+        	this.btnManageQuestions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
         	this.btnManageQuestions.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnManageQuestions.Image = ((System.Drawing.Image)(resources.GetObject("btnManageQuestions.Image")));
         	this.btnManageQuestions.Location = new System.Drawing.Point(257, 232);
@@ -76,6 +80,7 @@ namespace PlataformaEducativa.Forms
         	// btnLogout
         	// 
         	this.btnLogout.BackColor = System.Drawing.Color.Transparent;
+        	this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
         	this.btnLogout.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
         	this.btnLogout.Location = new System.Drawing.Point(30, 232);
@@ -114,8 +119,8 @@ namespace PlataformaEducativa.Forms
         	this.Controls.Add(this.label1);
         	this.Controls.Add(this.btnLogout);
         	this.Controls.Add(this.btnManageQuestions);
-        	this.Controls.Add(this.btnManageModules);
         	this.Controls.Add(this.btnManageUsers);
+        	this.Controls.Add(this.btnManageModules);
         	this.Name = "frmAdminDashboard";
         	this.Text = "Admin Dashboard";
         	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
