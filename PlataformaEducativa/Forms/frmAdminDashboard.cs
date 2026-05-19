@@ -32,13 +32,16 @@ namespace PlataformaEducativa.Forms
         	this.btnManageModules = new System.Windows.Forms.Button();
         	this.btnManageQuestions = new System.Windows.Forms.Button();
         	this.btnLogout = new System.Windows.Forms.Button();
+        	this.label1 = new System.Windows.Forms.Label();
+        	this.pictureBox1 = new System.Windows.Forms.PictureBox();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
         	this.SuspendLayout();
         	// 
         	// btnManageUsers
         	// 
         	this.btnManageUsers.BackColor = System.Drawing.Color.Transparent;
         	this.btnManageUsers.Image = ((System.Drawing.Image)(resources.GetObject("btnManageUsers.Image")));
-        	this.btnManageUsers.Location = new System.Drawing.Point(257, 106);
+        	this.btnManageUsers.Location = new System.Drawing.Point(257, 132);
         	this.btnManageUsers.Name = "btnManageUsers";
         	this.btnManageUsers.Size = new System.Drawing.Size(199, 51);
         	this.btnManageUsers.TabIndex = 3;
@@ -49,7 +52,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.btnManageModules.BackColor = System.Drawing.Color.Transparent;
         	this.btnManageModules.Image = ((System.Drawing.Image)(resources.GetObject("btnManageModules.Image")));
-        	this.btnManageModules.Location = new System.Drawing.Point(30, 106);
+        	this.btnManageModules.Location = new System.Drawing.Point(30, 132);
         	this.btnManageModules.Name = "btnManageModules";
         	this.btnManageModules.Size = new System.Drawing.Size(201, 51);
         	this.btnManageModules.TabIndex = 2;
@@ -78,19 +81,44 @@ namespace PlataformaEducativa.Forms
         	this.btnLogout.UseVisualStyleBackColor = false;
         	this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
         	// 
+        	// label1
+        	// 
+        	this.label1.BackColor = System.Drawing.Color.Transparent;
+        	this.label1.Font = new System.Drawing.Font("Unispace", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+        	this.label1.Location = new System.Drawing.Point(127, 82);
+        	this.label1.Name = "label1";
+        	this.label1.Size = new System.Drawing.Size(229, 32);
+        	this.label1.TabIndex = 4;
+        	this.label1.Text = "ADMINISTRACION";
+        	// 
+        	// pictureBox1
+        	// 
+        	this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+        	this.pictureBox1.Location = new System.Drawing.Point(141, 12);
+        	this.pictureBox1.Name = "pictureBox1";
+        	this.pictureBox1.Size = new System.Drawing.Size(143, 65);
+        	this.pictureBox1.TabIndex = 5;
+        	this.pictureBox1.TabStop = false;
+        	// 
         	// frmAdminDashboard
         	// 
         	this.BackColor = System.Drawing.Color.Navy;
         	this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
         	this.ClientSize = new System.Drawing.Size(479, 346);
+        	this.Controls.Add(this.pictureBox1);
+        	this.Controls.Add(this.label1);
         	this.Controls.Add(this.btnLogout);
         	this.Controls.Add(this.btnManageQuestions);
         	this.Controls.Add(this.btnManageModules);
         	this.Controls.Add(this.btnManageUsers);
         	this.Name = "frmAdminDashboard";
         	this.Text = "Admin Dashboard";
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
         	this.ResumeLayout(false);
         }
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
 
         private void AplicarIdioma()
         {
