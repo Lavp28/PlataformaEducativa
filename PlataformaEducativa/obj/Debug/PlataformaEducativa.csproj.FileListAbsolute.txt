@@ -1,0 +1,19 @@
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csprojResolveAssemblyReference.cache
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.FormLogin.resources
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmAdminDashboard.resources
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csproj.GenerateResource.Cache
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe.config
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.pdb
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\bin\Debug\MySql.Data.dll
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.exe
+C:\Users\R0wy-_-!\Documents\SharpDevelop Projects\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb
+Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe.config
+Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe
+Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.pdb
+Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csprojResolveAssemblyReference.cache
+Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.FormLogin.resources
+Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmAdminDashboard.resources
+Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csproj.GenerateResource.Cache
+Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.exe
+Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb
