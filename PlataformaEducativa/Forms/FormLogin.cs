@@ -91,6 +91,7 @@ namespace PlataformaEducativa.Forms
         	// rbEspanol
         	// 
         	this.rbEspanol.AutoSize = true;
+        	this.rbEspanol.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rbEspanol.BackgroundImage")));
         	this.rbEspanol.Checked = true;
         	this.rbEspanol.ForeColor = System.Drawing.Color.White;
         	this.rbEspanol.Location = new System.Drawing.Point(80, 115);
@@ -115,7 +116,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	// FormLogin
         	// 
-        	this.BackColor = System.Drawing.Color.Purple;
+        	this.BackColor = System.Drawing.SystemColors.ActiveCaption;
         	this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
         	this.ClientSize = new System.Drawing.Size(476, 233);
         	this.Controls.Add(this.rbIngles);
@@ -130,7 +131,6 @@ namespace PlataformaEducativa.Forms
         	this.Text = "Login Plataforma Educativa";
         	this.ResumeLayout(false);
         	this.PerformLayout();
-
         }
 
         // Aplica el idioma seleccionado a todos los textos del formulario

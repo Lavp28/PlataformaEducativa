@@ -26,3 +26,12 @@ C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\Pl
 C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csproj.GenerateResource.Cache
 C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.exe
 C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe.config
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.pdb
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csprojResolveAssemblyReference.cache
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.FormLogin.resources
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmAdminDashboard.resources
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csproj.GenerateResource.Cache
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.exe
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb
