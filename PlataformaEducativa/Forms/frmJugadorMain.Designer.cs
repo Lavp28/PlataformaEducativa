@@ -122,6 +122,8 @@ namespace PlataformaEducativa.Forms
         	// 
         	// grpMisEstadisticas
         	// 
+        	this.grpMisEstadisticas.BackColor = System.Drawing.Color.Black;
+        	this.grpMisEstadisticas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("grpMisEstadisticas.BackgroundImage")));
         	this.grpMisEstadisticas.Controls.Add(this.lblMiModulo);
         	this.grpMisEstadisticas.Controls.Add(this.lblMisCorrectas);
         	this.grpMisEstadisticas.Controls.Add(this.lblMisIncorrectas);
