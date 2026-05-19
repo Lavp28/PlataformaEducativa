@@ -50,6 +50,7 @@ namespace PlataformaEducativa.Forms
         	this.rbOpcion1.Name = "rbOpcion1";
         	this.rbOpcion1.Size = new System.Drawing.Size(274, 68);
         	this.rbOpcion1.TabIndex = 6;
+        	this.rbOpcion1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         	this.rbOpcion1.UseVisualStyleBackColor = false;
         	// 
         	// rbOpcion2
@@ -60,6 +61,7 @@ namespace PlataformaEducativa.Forms
         	this.rbOpcion2.Name = "rbOpcion2";
         	this.rbOpcion2.Size = new System.Drawing.Size(335, 91);
         	this.rbOpcion2.TabIndex = 5;
+        	this.rbOpcion2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         	this.rbOpcion2.UseVisualStyleBackColor = false;
         	// 
         	// rbOpcion3
@@ -70,6 +72,7 @@ namespace PlataformaEducativa.Forms
         	this.rbOpcion3.Name = "rbOpcion3";
         	this.rbOpcion3.Size = new System.Drawing.Size(274, 74);
         	this.rbOpcion3.TabIndex = 4;
+        	this.rbOpcion3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         	this.rbOpcion3.UseVisualStyleBackColor = false;
         	// 
         	// rbOpcion4
@@ -80,6 +83,7 @@ namespace PlataformaEducativa.Forms
         	this.rbOpcion4.Name = "rbOpcion4";
         	this.rbOpcion4.Size = new System.Drawing.Size(269, 63);
         	this.rbOpcion4.TabIndex = 3;
+        	this.rbOpcion4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         	this.rbOpcion4.UseVisualStyleBackColor = false;
         	// 
         	// btnResponder
