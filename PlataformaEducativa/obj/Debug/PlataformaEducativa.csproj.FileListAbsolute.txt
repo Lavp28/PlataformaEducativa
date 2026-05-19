@@ -49,3 +49,16 @@ C:\Users\juanp\OneDrive\Desktop\ProyectoV8\PlataformaEducativa\PlataformaEducati
 C:\Users\juanp\OneDrive\Desktop\ProyectoV8\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb
 C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmJugadorMain.resources
 C:\Users\juanp\OneDrive\Desktop\ProyectoV8\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmJugadorMain.resources
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.FormLogin.resources
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmAdminDashboard.resources
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmGame.resources
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmJugadorMain.resources
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmManageModules.resources
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csproj.GenerateResource.Cache
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.exe
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe.config
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.pdb
+C:\Users\Administrador\Documents\SharpDevelop Projects\sss\PlataformaEducativa\PlataformaEducativa\bin\Debug\MySql.Data.dll
