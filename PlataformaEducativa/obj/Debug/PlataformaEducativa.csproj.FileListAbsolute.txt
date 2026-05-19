@@ -36,3 +36,4 @@ C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducati
 C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.exe
 C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb
 C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmGame.resources
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmGame.resources
