@@ -35,6 +35,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	// lblPregunta
         	// 
+        	this.lblPregunta.Image = ((System.Drawing.Image)(resources.GetObject("lblPregunta.Image")));
         	this.lblPregunta.Location = new System.Drawing.Point(20, 20);
         	this.lblPregunta.Name = "lblPregunta";
         	this.lblPregunta.Size = new System.Drawing.Size(648, 73);
@@ -43,39 +44,53 @@ namespace PlataformaEducativa.Forms
         	// 
         	// rbOpcion1
         	// 
-        	this.rbOpcion1.Location = new System.Drawing.Point(372, 298);
+        	this.rbOpcion1.BackColor = System.Drawing.Color.Transparent;
+        	this.rbOpcion1.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion1.Image")));
+        	this.rbOpcion1.Location = new System.Drawing.Point(361, 284);
         	this.rbOpcion1.Name = "rbOpcion1";
-        	this.rbOpcion1.Size = new System.Drawing.Size(263, 46);
+        	this.rbOpcion1.Size = new System.Drawing.Size(274, 68);
         	this.rbOpcion1.TabIndex = 6;
+        	this.rbOpcion1.UseVisualStyleBackColor = false;
         	// 
         	// rbOpcion2
         	// 
-        	this.rbOpcion2.Location = new System.Drawing.Point(43, 298);
+        	this.rbOpcion2.BackColor = System.Drawing.Color.Transparent;
+        	this.rbOpcion2.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion2.Image")));
+        	this.rbOpcion2.Location = new System.Drawing.Point(43, 285);
         	this.rbOpcion2.Name = "rbOpcion2";
-        	this.rbOpcion2.Size = new System.Drawing.Size(257, 46);
+        	this.rbOpcion2.Size = new System.Drawing.Size(269, 67);
         	this.rbOpcion2.TabIndex = 5;
+        	this.rbOpcion2.UseVisualStyleBackColor = false;
         	// 
         	// rbOpcion3
         	// 
-        	this.rbOpcion3.Location = new System.Drawing.Point(372, 372);
+        	this.rbOpcion3.BackColor = System.Drawing.Color.Transparent;
+        	this.rbOpcion3.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion3.Image")));
+        	this.rbOpcion3.Location = new System.Drawing.Point(361, 355);
         	this.rbOpcion3.Name = "rbOpcion3";
-        	this.rbOpcion3.Size = new System.Drawing.Size(263, 41);
+        	this.rbOpcion3.Size = new System.Drawing.Size(274, 74);
         	this.rbOpcion3.TabIndex = 4;
+        	this.rbOpcion3.UseVisualStyleBackColor = false;
         	// 
         	// rbOpcion4
         	// 
-        	this.rbOpcion4.Location = new System.Drawing.Point(43, 372);
+        	this.rbOpcion4.BackColor = System.Drawing.Color.Transparent;
+        	this.rbOpcion4.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion4.Image")));
+        	this.rbOpcion4.Location = new System.Drawing.Point(43, 361);
         	this.rbOpcion4.Name = "rbOpcion4";
-        	this.rbOpcion4.Size = new System.Drawing.Size(257, 49);
+        	this.rbOpcion4.Size = new System.Drawing.Size(269, 63);
         	this.rbOpcion4.TabIndex = 3;
+        	this.rbOpcion4.UseVisualStyleBackColor = false;
         	// 
         	// btnResponder
         	// 
-        	this.btnResponder.Location = new System.Drawing.Point(43, 452);
+        	this.btnResponder.BackColor = System.Drawing.Color.Transparent;
+        	this.btnResponder.Image = ((System.Drawing.Image)(resources.GetObject("btnResponder.Image")));
+        	this.btnResponder.Location = new System.Drawing.Point(43, 449);
         	this.btnResponder.Name = "btnResponder";
-        	this.btnResponder.Size = new System.Drawing.Size(112, 49);
+        	this.btnResponder.Size = new System.Drawing.Size(62, 55);
         	this.btnResponder.TabIndex = 2;
-        	this.btnResponder.Text = "Responder";
+        	this.btnResponder.UseVisualStyleBackColor = false;
         	this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
         	// 
         	// btnCambiarIdioma
@@ -92,6 +107,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	// picImagen
         	// 
+        	this.picImagen.Image = ((System.Drawing.Image)(resources.GetObject("picImagen.Image")));
         	this.picImagen.Location = new System.Drawing.Point(84, 125);
         	this.picImagen.Name = "picImagen";
         	this.picImagen.Size = new System.Drawing.Size(505, 120);
