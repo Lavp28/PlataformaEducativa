@@ -35,6 +35,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	// lblPregunta
         	// 
+        	this.lblPregunta.Font = new System.Drawing.Font("Kristen ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.lblPregunta.Image = ((System.Drawing.Image)(resources.GetObject("lblPregunta.Image")));
         	this.lblPregunta.Location = new System.Drawing.Point(64, 9);
         	this.lblPregunta.Name = "lblPregunta";
@@ -46,6 +47,7 @@ namespace PlataformaEducativa.Forms
         	// rbOpcion1
         	// 
         	this.rbOpcion1.BackColor = System.Drawing.Color.Transparent;
+        	this.rbOpcion1.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold);
         	this.rbOpcion1.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion1.Image")));
         	this.rbOpcion1.Location = new System.Drawing.Point(509, 377);
         	this.rbOpcion1.Name = "rbOpcion1";
@@ -57,6 +59,7 @@ namespace PlataformaEducativa.Forms
         	// rbOpcion2
         	// 
         	this.rbOpcion2.BackColor = System.Drawing.Color.Transparent;
+        	this.rbOpcion2.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.rbOpcion2.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion2.Image")));
         	this.rbOpcion2.Location = new System.Drawing.Point(20, 375);
         	this.rbOpcion2.Name = "rbOpcion2";
@@ -68,6 +71,7 @@ namespace PlataformaEducativa.Forms
         	// rbOpcion3
         	// 
         	this.rbOpcion3.BackColor = System.Drawing.Color.Transparent;
+        	this.rbOpcion3.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold);
         	this.rbOpcion3.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion3.Image")));
         	this.rbOpcion3.Location = new System.Drawing.Point(509, 484);
         	this.rbOpcion3.Name = "rbOpcion3";
@@ -79,6 +83,7 @@ namespace PlataformaEducativa.Forms
         	// rbOpcion4
         	// 
         	this.rbOpcion4.BackColor = System.Drawing.Color.Transparent;
+        	this.rbOpcion4.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold);
         	this.rbOpcion4.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion4.Image")));
         	this.rbOpcion4.Location = new System.Drawing.Point(20, 484);
         	this.rbOpcion4.Name = "rbOpcion4";
@@ -94,9 +99,9 @@ namespace PlataformaEducativa.Forms
         	this.btnResponder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
         	this.btnResponder.ForeColor = System.Drawing.Color.Black;
         	this.btnResponder.Image = ((System.Drawing.Image)(resources.GetObject("btnResponder.Image")));
-        	this.btnResponder.Location = new System.Drawing.Point(39, 603);
+        	this.btnResponder.Location = new System.Drawing.Point(54, 603);
         	this.btnResponder.Name = "btnResponder";
-        	this.btnResponder.Size = new System.Drawing.Size(172, 50);
+        	this.btnResponder.Size = new System.Drawing.Size(72, 50);
         	this.btnResponder.TabIndex = 2;
         	this.btnResponder.UseVisualStyleBackColor = false;
         	this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
@@ -104,6 +109,7 @@ namespace PlataformaEducativa.Forms
         	// btnCambiarIdioma
         	// 
         	this.btnCambiarIdioma.BackColor = System.Drawing.Color.Transparent;
+        	this.btnCambiarIdioma.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCambiarIdioma.BackgroundImage")));
         	this.btnCambiarIdioma.ForeColor = System.Drawing.Color.Transparent;
         	this.btnCambiarIdioma.Image = ((System.Drawing.Image)(resources.GetObject("btnCambiarIdioma.Image")));
         	this.btnCambiarIdioma.Location = new System.Drawing.Point(810, 592);
@@ -140,6 +146,7 @@ namespace PlataformaEducativa.Forms
         	this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmGame_FormClosed);
         	((System.ComponentModel.ISupportInitialize)(this.picImagen)).EndInit();
         	this.ResumeLayout(false);
+
         }
 
         // Declaración de controles (solo una vez)
