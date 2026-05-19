@@ -36,19 +36,20 @@ namespace PlataformaEducativa.Forms
         	// lblPregunta
         	// 
         	this.lblPregunta.Image = ((System.Drawing.Image)(resources.GetObject("lblPregunta.Image")));
-        	this.lblPregunta.Location = new System.Drawing.Point(20, 20);
+        	this.lblPregunta.Location = new System.Drawing.Point(64, 9);
         	this.lblPregunta.Name = "lblPregunta";
-        	this.lblPregunta.Size = new System.Drawing.Size(648, 73);
+        	this.lblPregunta.Size = new System.Drawing.Size(760, 168);
         	this.lblPregunta.TabIndex = 7;
         	this.lblPregunta.Text = "Pregunta";
+        	this.lblPregunta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         	// 
         	// rbOpcion1
         	// 
         	this.rbOpcion1.BackColor = System.Drawing.Color.Transparent;
         	this.rbOpcion1.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion1.Image")));
-        	this.rbOpcion1.Location = new System.Drawing.Point(361, 284);
+        	this.rbOpcion1.Location = new System.Drawing.Point(509, 377);
         	this.rbOpcion1.Name = "rbOpcion1";
-        	this.rbOpcion1.Size = new System.Drawing.Size(274, 68);
+        	this.rbOpcion1.Size = new System.Drawing.Size(352, 86);
         	this.rbOpcion1.TabIndex = 6;
         	this.rbOpcion1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         	this.rbOpcion1.UseVisualStyleBackColor = false;
@@ -57,9 +58,9 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.rbOpcion2.BackColor = System.Drawing.Color.Transparent;
         	this.rbOpcion2.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion2.Image")));
-        	this.rbOpcion2.Location = new System.Drawing.Point(20, 273);
+        	this.rbOpcion2.Location = new System.Drawing.Point(20, 375);
         	this.rbOpcion2.Name = "rbOpcion2";
-        	this.rbOpcion2.Size = new System.Drawing.Size(335, 91);
+        	this.rbOpcion2.Size = new System.Drawing.Size(349, 91);
         	this.rbOpcion2.TabIndex = 5;
         	this.rbOpcion2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         	this.rbOpcion2.UseVisualStyleBackColor = false;
@@ -68,9 +69,9 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.rbOpcion3.BackColor = System.Drawing.Color.Transparent;
         	this.rbOpcion3.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion3.Image")));
-        	this.rbOpcion3.Location = new System.Drawing.Point(361, 355);
+        	this.rbOpcion3.Location = new System.Drawing.Point(509, 484);
         	this.rbOpcion3.Name = "rbOpcion3";
-        	this.rbOpcion3.Size = new System.Drawing.Size(274, 74);
+        	this.rbOpcion3.Size = new System.Drawing.Size(352, 88);
         	this.rbOpcion3.TabIndex = 4;
         	this.rbOpcion3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         	this.rbOpcion3.UseVisualStyleBackColor = false;
@@ -79,9 +80,9 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.rbOpcion4.BackColor = System.Drawing.Color.Transparent;
         	this.rbOpcion4.Image = ((System.Drawing.Image)(resources.GetObject("rbOpcion4.Image")));
-        	this.rbOpcion4.Location = new System.Drawing.Point(43, 361);
+        	this.rbOpcion4.Location = new System.Drawing.Point(20, 484);
         	this.rbOpcion4.Name = "rbOpcion4";
-        	this.rbOpcion4.Size = new System.Drawing.Size(269, 63);
+        	this.rbOpcion4.Size = new System.Drawing.Size(349, 88);
         	this.rbOpcion4.TabIndex = 3;
         	this.rbOpcion4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         	this.rbOpcion4.UseVisualStyleBackColor = false;
@@ -89,10 +90,13 @@ namespace PlataformaEducativa.Forms
         	// btnResponder
         	// 
         	this.btnResponder.BackColor = System.Drawing.Color.Transparent;
+        	this.btnResponder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnResponder.BackgroundImage")));
+        	this.btnResponder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+        	this.btnResponder.ForeColor = System.Drawing.Color.Black;
         	this.btnResponder.Image = ((System.Drawing.Image)(resources.GetObject("btnResponder.Image")));
-        	this.btnResponder.Location = new System.Drawing.Point(43, 449);
+        	this.btnResponder.Location = new System.Drawing.Point(39, 603);
         	this.btnResponder.Name = "btnResponder";
-        	this.btnResponder.Size = new System.Drawing.Size(62, 55);
+        	this.btnResponder.Size = new System.Drawing.Size(172, 50);
         	this.btnResponder.TabIndex = 2;
         	this.btnResponder.UseVisualStyleBackColor = false;
         	this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
@@ -102,7 +106,7 @@ namespace PlataformaEducativa.Forms
         	this.btnCambiarIdioma.BackColor = System.Drawing.Color.Transparent;
         	this.btnCambiarIdioma.ForeColor = System.Drawing.Color.Transparent;
         	this.btnCambiarIdioma.Image = ((System.Drawing.Image)(resources.GetObject("btnCambiarIdioma.Image")));
-        	this.btnCambiarIdioma.Location = new System.Drawing.Point(595, 446);
+        	this.btnCambiarIdioma.Location = new System.Drawing.Point(810, 592);
         	this.btnCambiarIdioma.Name = "btnCambiarIdioma";
         	this.btnCambiarIdioma.Size = new System.Drawing.Size(73, 61);
         	this.btnCambiarIdioma.TabIndex = 1;
@@ -112,9 +116,9 @@ namespace PlataformaEducativa.Forms
         	// picImagen
         	// 
         	this.picImagen.Image = ((System.Drawing.Image)(resources.GetObject("picImagen.Image")));
-        	this.picImagen.Location = new System.Drawing.Point(84, 125);
+        	this.picImagen.Location = new System.Drawing.Point(86, 191);
         	this.picImagen.Name = "picImagen";
-        	this.picImagen.Size = new System.Drawing.Size(505, 120);
+        	this.picImagen.Size = new System.Drawing.Size(727, 178);
         	this.picImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
         	this.picImagen.TabIndex = 0;
         	this.picImagen.TabStop = false;
@@ -122,7 +126,7 @@ namespace PlataformaEducativa.Forms
         	// frmGame
         	// 
         	this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-        	this.ClientSize = new System.Drawing.Size(694, 519);
+        	this.ClientSize = new System.Drawing.Size(906, 665);
         	this.Controls.Add(this.picImagen);
         	this.Controls.Add(this.btnCambiarIdioma);
         	this.Controls.Add(this.btnResponder);
