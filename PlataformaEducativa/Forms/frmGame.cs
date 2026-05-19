@@ -127,7 +127,7 @@ namespace PlataformaEducativa.Forms
                 UserDAL.UpdateScore(_jugador.UserID, nuevoScore);
                 QuestionDAL.RegisterAttempt(_jugador.UserID, _currentQuestion.QuestionID, esCorrecta);
 
-                MessageBox.Show(esCorrecta ? LanguageManager.GetText("correct_answer") : LanguageManager.GetText("wrong_answer"), LanguageManager.GetText("result"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(esCorrecta ? LanguageManager.GetText("Respuesta Correcta") : LanguageManager.GetText("Respuesta incorrecta"), LanguageManager.GetText("Resultado"), MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 _currentIndex++;
                 CargarPreguntaActual();
