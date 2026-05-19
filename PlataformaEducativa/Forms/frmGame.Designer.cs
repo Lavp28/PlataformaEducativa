@@ -21,64 +21,101 @@ namespace PlataformaEducativa.Forms
 
         private void InitializeComponent()
         {
-            this.lblPregunta = new System.Windows.Forms.Label();
-            this.rbOpcion1 = new System.Windows.Forms.RadioButton();
-            this.rbOpcion2 = new System.Windows.Forms.RadioButton();
-            this.rbOpcion3 = new System.Windows.Forms.RadioButton();
-            this.rbOpcion4 = new System.Windows.Forms.RadioButton();
-            this.btnResponder = new System.Windows.Forms.Button();
-            this.btnCambiarIdioma = new System.Windows.Forms.Button();
-            this.picImagen = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).BeginInit();
-            this.SuspendLayout();
-
-            // lblPregunta
-            this.lblPregunta.Location = new System.Drawing.Point(20, 20);
-            this.lblPregunta.Size = new System.Drawing.Size(450, 60);
-            this.lblPregunta.Text = "Pregunta";
-
-            // rbOpcion1
-            this.rbOpcion1.Location = new System.Drawing.Point(20, 90);
-            this.rbOpcion1.Size = new System.Drawing.Size(200, 20);
-            this.rbOpcion2.Location = new System.Drawing.Point(20, 120);
-            this.rbOpcion2.Size = new System.Drawing.Size(200, 20);
-            this.rbOpcion3.Location = new System.Drawing.Point(20, 150);
-            this.rbOpcion3.Size = new System.Drawing.Size(200, 20);
-            this.rbOpcion4.Location = new System.Drawing.Point(20, 180);
-            this.rbOpcion4.Size = new System.Drawing.Size(200, 20);
-
-            // btnResponder
-            this.btnResponder.Location = new System.Drawing.Point(20, 230);
-            this.btnResponder.Size = new System.Drawing.Size(100, 30);
-            this.btnResponder.Text = "Responder";
-            this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
-
-            // btnCambiarIdioma
-            this.btnCambiarIdioma.Location = new System.Drawing.Point(140, 230);
-            this.btnCambiarIdioma.Size = new System.Drawing.Size(100, 30);
-            this.btnCambiarIdioma.Text = "English";
-            this.btnCambiarIdioma.Click += new System.EventHandler(this.btnCambiarIdioma_Click);
-
-            // picImagen
-            this.picImagen.Location = new System.Drawing.Point(300, 90);
-            this.picImagen.Size = new System.Drawing.Size(150, 120);
-            this.picImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-
-            // frmGame
-            this.ClientSize = new System.Drawing.Size(500, 300);
-            this.Controls.Add(this.picImagen);
-            this.Controls.Add(this.btnCambiarIdioma);
-            this.Controls.Add(this.btnResponder);
-            this.Controls.Add(this.rbOpcion4);
-            this.Controls.Add(this.rbOpcion3);
-            this.Controls.Add(this.rbOpcion2);
-            this.Controls.Add(this.rbOpcion1);
-            this.Controls.Add(this.lblPregunta);
-            this.Text = "Responder preguntas";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmGame_FormClosed);
-
-            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).EndInit();
-            this.ResumeLayout(false);
+        	System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGame));
+        	this.lblPregunta = new System.Windows.Forms.Label();
+        	this.rbOpcion1 = new System.Windows.Forms.RadioButton();
+        	this.rbOpcion2 = new System.Windows.Forms.RadioButton();
+        	this.rbOpcion3 = new System.Windows.Forms.RadioButton();
+        	this.rbOpcion4 = new System.Windows.Forms.RadioButton();
+        	this.btnResponder = new System.Windows.Forms.Button();
+        	this.btnCambiarIdioma = new System.Windows.Forms.Button();
+        	this.picImagen = new System.Windows.Forms.PictureBox();
+        	((System.ComponentModel.ISupportInitialize)(this.picImagen)).BeginInit();
+        	this.SuspendLayout();
+        	// 
+        	// lblPregunta
+        	// 
+        	this.lblPregunta.Location = new System.Drawing.Point(20, 20);
+        	this.lblPregunta.Name = "lblPregunta";
+        	this.lblPregunta.Size = new System.Drawing.Size(648, 73);
+        	this.lblPregunta.TabIndex = 7;
+        	this.lblPregunta.Text = "Pregunta";
+        	// 
+        	// rbOpcion1
+        	// 
+        	this.rbOpcion1.Location = new System.Drawing.Point(372, 298);
+        	this.rbOpcion1.Name = "rbOpcion1";
+        	this.rbOpcion1.Size = new System.Drawing.Size(263, 46);
+        	this.rbOpcion1.TabIndex = 6;
+        	// 
+        	// rbOpcion2
+        	// 
+        	this.rbOpcion2.Location = new System.Drawing.Point(43, 298);
+        	this.rbOpcion2.Name = "rbOpcion2";
+        	this.rbOpcion2.Size = new System.Drawing.Size(257, 46);
+        	this.rbOpcion2.TabIndex = 5;
+        	// 
+        	// rbOpcion3
+        	// 
+        	this.rbOpcion3.Location = new System.Drawing.Point(372, 372);
+        	this.rbOpcion3.Name = "rbOpcion3";
+        	this.rbOpcion3.Size = new System.Drawing.Size(263, 41);
+        	this.rbOpcion3.TabIndex = 4;
+        	// 
+        	// rbOpcion4
+        	// 
+        	this.rbOpcion4.Location = new System.Drawing.Point(43, 372);
+        	this.rbOpcion4.Name = "rbOpcion4";
+        	this.rbOpcion4.Size = new System.Drawing.Size(257, 49);
+        	this.rbOpcion4.TabIndex = 3;
+        	// 
+        	// btnResponder
+        	// 
+        	this.btnResponder.Location = new System.Drawing.Point(43, 452);
+        	this.btnResponder.Name = "btnResponder";
+        	this.btnResponder.Size = new System.Drawing.Size(112, 49);
+        	this.btnResponder.TabIndex = 2;
+        	this.btnResponder.Text = "Responder";
+        	this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
+        	// 
+        	// btnCambiarIdioma
+        	// 
+        	this.btnCambiarIdioma.BackColor = System.Drawing.Color.Transparent;
+        	this.btnCambiarIdioma.ForeColor = System.Drawing.Color.Transparent;
+        	this.btnCambiarIdioma.Image = ((System.Drawing.Image)(resources.GetObject("btnCambiarIdioma.Image")));
+        	this.btnCambiarIdioma.Location = new System.Drawing.Point(595, 446);
+        	this.btnCambiarIdioma.Name = "btnCambiarIdioma";
+        	this.btnCambiarIdioma.Size = new System.Drawing.Size(73, 61);
+        	this.btnCambiarIdioma.TabIndex = 1;
+        	this.btnCambiarIdioma.UseVisualStyleBackColor = false;
+        	this.btnCambiarIdioma.Click += new System.EventHandler(this.btnCambiarIdioma_Click);
+        	// 
+        	// picImagen
+        	// 
+        	this.picImagen.Location = new System.Drawing.Point(84, 125);
+        	this.picImagen.Name = "picImagen";
+        	this.picImagen.Size = new System.Drawing.Size(505, 120);
+        	this.picImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+        	this.picImagen.TabIndex = 0;
+        	this.picImagen.TabStop = false;
+        	// 
+        	// frmGame
+        	// 
+        	this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+        	this.ClientSize = new System.Drawing.Size(694, 519);
+        	this.Controls.Add(this.picImagen);
+        	this.Controls.Add(this.btnCambiarIdioma);
+        	this.Controls.Add(this.btnResponder);
+        	this.Controls.Add(this.rbOpcion4);
+        	this.Controls.Add(this.rbOpcion3);
+        	this.Controls.Add(this.rbOpcion2);
+        	this.Controls.Add(this.rbOpcion1);
+        	this.Controls.Add(this.lblPregunta);
+        	this.Name = "frmGame";
+        	this.Text = "Responder preguntas";
+        	this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmGame_FormClosed);
+        	((System.ComponentModel.ISupportInitialize)(this.picImagen)).EndInit();
+        	this.ResumeLayout(false);
         }
 
         // Declaración de controles (solo una vez)

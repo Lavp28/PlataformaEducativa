@@ -35,3 +35,4 @@ C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducati
 C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csproj.GenerateResource.Cache
 C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.exe
 C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb
+C:\Users\juanp\OneDrive\Desktop\ProyectoV7\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmGame.resources
