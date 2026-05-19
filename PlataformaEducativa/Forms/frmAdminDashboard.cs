@@ -36,7 +36,7 @@ namespace PlataformaEducativa.Forms
         	// btnManageUsers
         	// 
         	this.btnManageUsers.BackColor = System.Drawing.Color.Pink;
-        	this.btnManageUsers.Location = new System.Drawing.Point(50, 30);
+        	this.btnManageUsers.Location = new System.Drawing.Point(257, 111);
         	this.btnManageUsers.Name = "btnManageUsers";
         	this.btnManageUsers.Size = new System.Drawing.Size(180, 40);
         	this.btnManageUsers.TabIndex = 3;
@@ -46,7 +46,7 @@ namespace PlataformaEducativa.Forms
         	// btnManageModules
         	// 
         	this.btnManageModules.BackColor = System.Drawing.Color.Pink;
-        	this.btnManageModules.Location = new System.Drawing.Point(50, 90);
+        	this.btnManageModules.Location = new System.Drawing.Point(30, 111);
         	this.btnManageModules.Name = "btnManageModules";
         	this.btnManageModules.Size = new System.Drawing.Size(180, 40);
         	this.btnManageModules.TabIndex = 2;
@@ -56,7 +56,7 @@ namespace PlataformaEducativa.Forms
         	// btnManageQuestions
         	// 
         	this.btnManageQuestions.BackColor = System.Drawing.Color.Pink;
-        	this.btnManageQuestions.Location = new System.Drawing.Point(50, 150);
+        	this.btnManageQuestions.Location = new System.Drawing.Point(257, 232);
         	this.btnManageQuestions.Name = "btnManageQuestions";
         	this.btnManageQuestions.Size = new System.Drawing.Size(180, 40);
         	this.btnManageQuestions.TabIndex = 1;
@@ -66,7 +66,7 @@ namespace PlataformaEducativa.Forms
         	// btnLogout
         	// 
         	this.btnLogout.BackColor = System.Drawing.Color.Pink;
-        	this.btnLogout.Location = new System.Drawing.Point(50, 210);
+        	this.btnLogout.Location = new System.Drawing.Point(30, 232);
         	this.btnLogout.Name = "btnLogout";
         	this.btnLogout.Size = new System.Drawing.Size(180, 40);
         	this.btnLogout.TabIndex = 0;
@@ -76,7 +76,7 @@ namespace PlataformaEducativa.Forms
         	// frmAdminDashboard
         	// 
         	this.BackColor = System.Drawing.Color.BlueViolet;
-        	this.ClientSize = new System.Drawing.Size(276, 294);
+        	this.ClientSize = new System.Drawing.Size(468, 373);
         	this.Controls.Add(this.btnLogout);
         	this.Controls.Add(this.btnManageQuestions);
         	this.Controls.Add(this.btnManageModules);
@@ -84,7 +84,6 @@ namespace PlataformaEducativa.Forms
         	this.Name = "frmAdminDashboard";
         	this.Text = "Admin Dashboard";
         	this.ResumeLayout(false);
-
         }
 
         private void AplicarIdioma()
