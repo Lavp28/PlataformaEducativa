@@ -42,6 +42,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.lblPuntajeTotal.AutoSize = true;
         	this.lblPuntajeTotal.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold);
+        	this.lblPuntajeTotal.Image = ((System.Drawing.Image)(resources.GetObject("lblPuntajeTotal.Image")));
         	this.lblPuntajeTotal.Location = new System.Drawing.Point(692, 16);
         	this.lblPuntajeTotal.Name = "lblPuntajeTotal";
         	this.lblPuntajeTotal.Size = new System.Drawing.Size(152, 23);
@@ -51,13 +52,15 @@ namespace PlataformaEducativa.Forms
         	// cmbModulosJugar
         	// 
         	this.cmbModulosJugar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+        	this.cmbModulosJugar.Font = new System.Drawing.Font("Kristen ITC", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.cmbModulosJugar.Location = new System.Drawing.Point(50, 16);
         	this.cmbModulosJugar.Name = "cmbModulosJugar";
-        	this.cmbModulosJugar.Size = new System.Drawing.Size(200, 21);
+        	this.cmbModulosJugar.Size = new System.Drawing.Size(200, 24);
         	this.cmbModulosJugar.TabIndex = 1;
         	// 
         	// btnJugar
         	// 
+        	this.btnJugar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
         	this.btnJugar.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnJugar.Image = ((System.Drawing.Image)(resources.GetObject("btnJugar.Image")));
         	this.btnJugar.Location = new System.Drawing.Point(50, 55);
@@ -69,6 +72,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	// btnCerrarSesion
         	// 
+        	this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
         	this.btnCerrarSesion.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold);
         	this.btnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion.Image")));
         	this.btnCerrarSesion.Location = new System.Drawing.Point(156, 55);
@@ -81,18 +85,21 @@ namespace PlataformaEducativa.Forms
         	// lblRankingModulo
         	// 
         	this.lblRankingModulo.AutoSize = true;
-        	this.lblRankingModulo.Location = new System.Drawing.Point(530, 90);
+        	this.lblRankingModulo.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold);
+        	this.lblRankingModulo.Image = ((System.Drawing.Image)(resources.GetObject("lblRankingModulo.Image")));
+        	this.lblRankingModulo.Location = new System.Drawing.Point(479, 77);
         	this.lblRankingModulo.Name = "lblRankingModulo";
-        	this.lblRankingModulo.Size = new System.Drawing.Size(105, 13);
+        	this.lblRankingModulo.Size = new System.Drawing.Size(189, 23);
         	this.lblRankingModulo.TabIndex = 4;
         	this.lblRankingModulo.Text = "Ranking por módulo:";
         	// 
         	// cmbRankingModulo
         	// 
         	this.cmbRankingModulo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-        	this.cmbRankingModulo.Location = new System.Drawing.Point(653, 90);
+        	this.cmbRankingModulo.Font = new System.Drawing.Font("Kristen ITC", 8.25F, System.Drawing.FontStyle.Bold);
+        	this.cmbRankingModulo.Location = new System.Drawing.Point(689, 77);
         	this.cmbRankingModulo.Name = "cmbRankingModulo";
-        	this.cmbRankingModulo.Size = new System.Drawing.Size(200, 21);
+        	this.cmbRankingModulo.Size = new System.Drawing.Size(200, 24);
         	this.cmbRankingModulo.TabIndex = 5;
         	this.cmbRankingModulo.SelectedIndexChanged += new System.EventHandler(this.cmbRankingModulo_SelectedIndexChanged);
         	// 
@@ -113,6 +120,7 @@ namespace PlataformaEducativa.Forms
         	this.grpMisEstadisticas.Controls.Add(this.lblMisCorrectas);
         	this.grpMisEstadisticas.Controls.Add(this.lblMisIncorrectas);
         	this.grpMisEstadisticas.Controls.Add(this.lblMiPuntaje);
+        	this.grpMisEstadisticas.Font = new System.Drawing.Font("Kristen ITC", 8.25F, System.Drawing.FontStyle.Bold);
         	this.grpMisEstadisticas.Location = new System.Drawing.Point(36, 345);
         	this.grpMisEstadisticas.Name = "grpMisEstadisticas";
         	this.grpMisEstadisticas.Size = new System.Drawing.Size(500, 80);
@@ -125,7 +133,7 @@ namespace PlataformaEducativa.Forms
         	this.lblMiModulo.AutoSize = true;
         	this.lblMiModulo.Location = new System.Drawing.Point(20, 25);
         	this.lblMiModulo.Name = "lblMiModulo";
-        	this.lblMiModulo.Size = new System.Drawing.Size(0, 13);
+        	this.lblMiModulo.Size = new System.Drawing.Size(0, 16);
         	this.lblMiModulo.TabIndex = 0;
         	// 
         	// lblMisCorrectas
@@ -133,7 +141,7 @@ namespace PlataformaEducativa.Forms
         	this.lblMisCorrectas.AutoSize = true;
         	this.lblMisCorrectas.Location = new System.Drawing.Point(20, 50);
         	this.lblMisCorrectas.Name = "lblMisCorrectas";
-        	this.lblMisCorrectas.Size = new System.Drawing.Size(0, 13);
+        	this.lblMisCorrectas.Size = new System.Drawing.Size(0, 16);
         	this.lblMisCorrectas.TabIndex = 1;
         	// 
         	// lblMisIncorrectas
@@ -141,7 +149,7 @@ namespace PlataformaEducativa.Forms
         	this.lblMisIncorrectas.AutoSize = true;
         	this.lblMisIncorrectas.Location = new System.Drawing.Point(200, 50);
         	this.lblMisIncorrectas.Name = "lblMisIncorrectas";
-        	this.lblMisIncorrectas.Size = new System.Drawing.Size(0, 13);
+        	this.lblMisIncorrectas.Size = new System.Drawing.Size(0, 16);
         	this.lblMisIncorrectas.TabIndex = 2;
         	// 
         	// lblMiPuntaje
@@ -149,7 +157,7 @@ namespace PlataformaEducativa.Forms
         	this.lblMiPuntaje.AutoSize = true;
         	this.lblMiPuntaje.Location = new System.Drawing.Point(380, 50);
         	this.lblMiPuntaje.Name = "lblMiPuntaje";
-        	this.lblMiPuntaje.Size = new System.Drawing.Size(0, 13);
+        	this.lblMiPuntaje.Size = new System.Drawing.Size(0, 16);
         	this.lblMiPuntaje.TabIndex = 3;
         	// 
         	// pictureBox1
