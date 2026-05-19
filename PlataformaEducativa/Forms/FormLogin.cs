@@ -32,6 +32,7 @@ namespace PlataformaEducativa.Forms
 
         private void InitializeComponent()
         {
+        	System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
         	this.txtUsername = new System.Windows.Forms.TextBox();
         	this.txtPassword = new System.Windows.Forms.TextBox();
         	this.btnLogin = new System.Windows.Forms.Button();
@@ -104,9 +105,10 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.rbIngles.AutoSize = true;
         	this.rbIngles.ForeColor = System.Drawing.Color.White;
+        	this.rbIngles.Image = ((System.Drawing.Image)(resources.GetObject("rbIngles.Image")));
         	this.rbIngles.Location = new System.Drawing.Point(171, 115);
         	this.rbIngles.Name = "rbIngles";
-        	this.rbIngles.Size = new System.Drawing.Size(59, 17);
+        	this.rbIngles.Size = new System.Drawing.Size(62, 25);
         	this.rbIngles.TabIndex = 4;
         	this.rbIngles.Text = "English";
         	this.rbIngles.CheckedChanged += new System.EventHandler(this.rbIdioma_CheckedChanged);
@@ -114,7 +116,8 @@ namespace PlataformaEducativa.Forms
         	// FormLogin
         	// 
         	this.BackColor = System.Drawing.Color.Purple;
-        	this.ClientSize = new System.Drawing.Size(713, 325);
+        	this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+        	this.ClientSize = new System.Drawing.Size(476, 233);
         	this.Controls.Add(this.rbIngles);
         	this.Controls.Add(this.rbEspanol);
         	this.Controls.Add(this.label2);

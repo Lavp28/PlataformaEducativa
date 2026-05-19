@@ -40,13 +40,10 @@ namespace PlataformaEducativa.Forms
             // rbOpcion1
             this.rbOpcion1.Location = new System.Drawing.Point(20, 90);
             this.rbOpcion1.Size = new System.Drawing.Size(200, 20);
-            // rbOpcion2
             this.rbOpcion2.Location = new System.Drawing.Point(20, 120);
             this.rbOpcion2.Size = new System.Drawing.Size(200, 20);
-            // rbOpcion3
             this.rbOpcion3.Location = new System.Drawing.Point(20, 150);
             this.rbOpcion3.Size = new System.Drawing.Size(200, 20);
-            // rbOpcion4
             this.rbOpcion4.Location = new System.Drawing.Point(20, 180);
             this.rbOpcion4.Size = new System.Drawing.Size(200, 20);
 
@@ -84,6 +81,7 @@ namespace PlataformaEducativa.Forms
             this.ResumeLayout(false);
         }
 
+        // Declaración de controles (solo una vez)
         private System.Windows.Forms.Label lblPregunta;
         private System.Windows.Forms.RadioButton rbOpcion1, rbOpcion2, rbOpcion3, rbOpcion4;
         private System.Windows.Forms.Button btnResponder, btnCambiarIdioma;

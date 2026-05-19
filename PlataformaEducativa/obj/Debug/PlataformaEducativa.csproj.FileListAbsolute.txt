@@ -17,3 +17,12 @@ Z:\PlataformaEducativa final final final final final final final final final fin
 Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csproj.GenerateResource.Cache
 Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.exe
 Z:\PlataformaEducativa final final final final final final final final final final\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe.config
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.exe
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\bin\Debug\PlataformaEducativa.pdb
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csprojResolveAssemblyReference.cache
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.FormLogin.resources
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.Forms.frmAdminDashboard.resources
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.csproj.GenerateResource.Cache
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.exe
+C:\Users\Lavp2812\Documents\PlataformaEducativa\PlataformaEducativa\obj\Debug\PlataformaEducativa.pdb

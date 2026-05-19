@@ -39,6 +39,7 @@ namespace PlataformaEducativa.Forms
             // lblPuntajeTotal
             this.lblPuntajeTotal.AutoSize = true;
             this.lblPuntajeTotal.Location = new System.Drawing.Point(50, 20);
+            this.lblPuntajeTotal.Text = "Puntaje total: 0";
 
             // cmbModulosJugar
             this.cmbModulosJugar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -48,16 +49,19 @@ namespace PlataformaEducativa.Forms
             // btnJugar
             this.btnJugar.Location = new System.Drawing.Point(50, 90);
             this.btnJugar.Size = new System.Drawing.Size(100, 30);
+            this.btnJugar.Text = "Jugar";
             this.btnJugar.Click += new System.EventHandler(this.btnJugar_Click);
 
             // btnCerrarSesion
             this.btnCerrarSesion.Location = new System.Drawing.Point(160, 90);
             this.btnCerrarSesion.Size = new System.Drawing.Size(100, 30);
+            this.btnCerrarSesion.Text = "Cerrar sesión";
             this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
 
             // lblRankingModulo
             this.lblRankingModulo.AutoSize = true;
             this.lblRankingModulo.Location = new System.Drawing.Point(50, 140);
+            this.lblRankingModulo.Text = "Ranking por módulo:";
 
             // cmbRankingModulo
             this.cmbRankingModulo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -76,6 +80,7 @@ namespace PlataformaEducativa.Forms
             // grpMisEstadisticas
             this.grpMisEstadisticas.Location = new System.Drawing.Point(50, 380);
             this.grpMisEstadisticas.Size = new System.Drawing.Size(500, 80);
+            this.grpMisEstadisticas.Text = "Mis estadísticas en este módulo";
             this.grpMisEstadisticas.Controls.Add(this.lblMiModulo);
             this.grpMisEstadisticas.Controls.Add(this.lblMisCorrectas);
             this.grpMisEstadisticas.Controls.Add(this.lblMisIncorrectas);
@@ -86,7 +91,10 @@ namespace PlataformaEducativa.Forms
             this.lblMisIncorrectas.AutoSize = true; this.lblMisIncorrectas.Location = new System.Drawing.Point(200, 50);
             this.lblMiPuntaje.AutoSize = true; this.lblMiPuntaje.Location = new System.Drawing.Point(380, 50);
 
-            // Agregar controles
+            // frmJugadorMain
+            this.ClientSize = new System.Drawing.Size(600, 500);
+            this.Text = "Jugador";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Controls.Add(this.lblPuntajeTotal);
             this.Controls.Add(this.cmbModulosJugar);
             this.Controls.Add(this.btnJugar);
@@ -96,11 +104,6 @@ namespace PlataformaEducativa.Forms
             this.Controls.Add(this.dgvRanking);
             this.Controls.Add(this.grpMisEstadisticas);
 
-            // Formulario
-            this.ClientSize = new System.Drawing.Size(600, 500);
-            this.Text = "Jugador";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-
             ((System.ComponentModel.ISupportInitialize)(this.dgvRanking)).EndInit();
             this.grpMisEstadisticas.ResumeLayout(false);
             this.grpMisEstadisticas.PerformLayout();
@@ -108,6 +111,7 @@ namespace PlataformaEducativa.Forms
             this.PerformLayout();
         }
 
+        // Declaraciones únicas
         private System.Windows.Forms.Label lblPuntajeTotal;
         private System.Windows.Forms.ComboBox cmbModulosJugar, cmbRankingModulo;
         private System.Windows.Forms.Button btnJugar, btnCerrarSesion;
