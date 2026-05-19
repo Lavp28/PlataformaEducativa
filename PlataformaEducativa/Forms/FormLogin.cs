@@ -60,17 +60,20 @@ namespace PlataformaEducativa.Forms
         	// 
         	// txtUsername
         	// 
+        	this.txtUsername.Font = new System.Drawing.Font("Kristen ITC", 8.25F, System.Drawing.FontStyle.Bold);
         	this.txtUsername.Location = new System.Drawing.Point(246, 42);
         	this.txtUsername.Name = "txtUsername";
-        	this.txtUsername.Size = new System.Drawing.Size(150, 20);
+        	this.txtUsername.Size = new System.Drawing.Size(150, 22);
         	this.txtUsername.TabIndex = 0;
         	// 
         	// txtPassword
         	// 
+        	this.txtPassword.BackColor = System.Drawing.Color.White;
+        	this.txtPassword.Font = new System.Drawing.Font("Kristen ITC", 8.25F, System.Drawing.FontStyle.Bold);
         	this.txtPassword.Location = new System.Drawing.Point(246, 94);
         	this.txtPassword.Name = "txtPassword";
         	this.txtPassword.PasswordChar = '*';
-        	this.txtPassword.Size = new System.Drawing.Size(150, 20);
+        	this.txtPassword.Size = new System.Drawing.Size(150, 22);
         	this.txtPassword.TabIndex = 1;
         	// 
         	// btnLogin
