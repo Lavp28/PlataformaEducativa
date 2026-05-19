@@ -40,6 +40,7 @@ namespace PlataformaEducativa.Forms
         	// btnManageUsers
         	// 
         	this.btnManageUsers.BackColor = System.Drawing.Color.Transparent;
+        	this.btnManageUsers.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnManageUsers.Image = ((System.Drawing.Image)(resources.GetObject("btnManageUsers.Image")));
         	this.btnManageUsers.Location = new System.Drawing.Point(257, 132);
         	this.btnManageUsers.Name = "btnManageUsers";
@@ -51,6 +52,7 @@ namespace PlataformaEducativa.Forms
         	// btnManageModules
         	// 
         	this.btnManageModules.BackColor = System.Drawing.Color.Transparent;
+        	this.btnManageModules.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnManageModules.Image = ((System.Drawing.Image)(resources.GetObject("btnManageModules.Image")));
         	this.btnManageModules.Location = new System.Drawing.Point(30, 132);
         	this.btnManageModules.Name = "btnManageModules";
@@ -62,6 +64,7 @@ namespace PlataformaEducativa.Forms
         	// btnManageQuestions
         	// 
         	this.btnManageQuestions.BackColor = System.Drawing.Color.Transparent;
+        	this.btnManageQuestions.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnManageQuestions.Image = ((System.Drawing.Image)(resources.GetObject("btnManageQuestions.Image")));
         	this.btnManageQuestions.Location = new System.Drawing.Point(257, 232);
         	this.btnManageQuestions.Name = "btnManageQuestions";
@@ -73,6 +76,7 @@ namespace PlataformaEducativa.Forms
         	// btnLogout
         	// 
         	this.btnLogout.BackColor = System.Drawing.Color.Transparent;
+        	this.btnLogout.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
         	this.btnLogout.Location = new System.Drawing.Point(30, 232);
         	this.btnLogout.Name = "btnLogout";
@@ -84,10 +88,10 @@ namespace PlataformaEducativa.Forms
         	// label1
         	// 
         	this.label1.BackColor = System.Drawing.Color.Transparent;
-        	this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-        	this.label1.Location = new System.Drawing.Point(127, 82);
+        	this.label1.Font = new System.Drawing.Font("Kristen ITC", 18F, System.Drawing.FontStyle.Bold);
+        	this.label1.Location = new System.Drawing.Point(96, 80);
         	this.label1.Name = "label1";
-        	this.label1.Size = new System.Drawing.Size(239, 32);
+        	this.label1.Size = new System.Drawing.Size(315, 32);
         	this.label1.TabIndex = 4;
         	this.label1.Text = "ADMINISTRACION";
         	// 
