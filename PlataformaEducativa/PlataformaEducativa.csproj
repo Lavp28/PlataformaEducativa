@@ -36,7 +36,7 @@
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\Downloads\MySql.Data.dll</HintPath>
+      <HintPath>G:\DescargasOpera\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -111,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmJugadorMain.resx">
       <DependentUpon>frmJugadorMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmManageModules.resx">
+      <DependentUpon>frmManageModules.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
