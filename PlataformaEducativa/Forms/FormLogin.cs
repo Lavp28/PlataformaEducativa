@@ -40,18 +40,24 @@ namespace PlataformaEducativa.Forms
         	this.label2 = new System.Windows.Forms.Label();
         	this.rbEspanol = new System.Windows.Forms.RadioButton();
         	this.rbIngles = new System.Windows.Forms.RadioButton();
+        	this.pictureBox1 = new System.Windows.Forms.PictureBox();
+        	this.pictureBox2 = new System.Windows.Forms.PictureBox();
+        	this.pictureBox3 = new System.Windows.Forms.PictureBox();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
         	this.SuspendLayout();
         	// 
         	// txtUsername
         	// 
-        	this.txtUsername.Location = new System.Drawing.Point(80, 25);
+        	this.txtUsername.Location = new System.Drawing.Point(212, 42);
         	this.txtUsername.Name = "txtUsername";
         	this.txtUsername.Size = new System.Drawing.Size(150, 20);
         	this.txtUsername.TabIndex = 0;
         	// 
         	// txtPassword
         	// 
-        	this.txtPassword.Location = new System.Drawing.Point(80, 51);
+        	this.txtPassword.Location = new System.Drawing.Point(212, 94);
         	this.txtPassword.Name = "txtPassword";
         	this.txtPassword.PasswordChar = '*';
         	this.txtPassword.Size = new System.Drawing.Size(150, 20);
@@ -59,10 +65,12 @@ namespace PlataformaEducativa.Forms
         	// 
         	// btnLogin
         	// 
+        	this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+        	this.btnLogin.Font = new System.Drawing.Font("Unispace", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnLogin.ForeColor = System.Drawing.Color.Black;
-        	this.btnLogin.Location = new System.Drawing.Point(119, 77);
+        	this.btnLogin.Location = new System.Drawing.Point(231, 137);
         	this.btnLogin.Name = "btnLogin";
-        	this.btnLogin.Size = new System.Drawing.Size(75, 23);
+        	this.btnLogin.Size = new System.Drawing.Size(118, 33);
         	this.btnLogin.TabIndex = 2;
         	this.btnLogin.Text = "Ingresar";
         	this.btnLogin.UseVisualStyleBackColor = true;
@@ -71,54 +79,93 @@ namespace PlataformaEducativa.Forms
         	// label1
         	// 
         	this.label1.AutoSize = true;
-        	this.label1.ForeColor = System.Drawing.Color.White;
-        	this.label1.Location = new System.Drawing.Point(18, 28);
+        	this.label1.BackColor = System.Drawing.Color.Transparent;
+        	this.label1.Font = new System.Drawing.Font("Unispace", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+        	this.label1.ForeColor = System.Drawing.Color.Black;
+        	this.label1.Location = new System.Drawing.Point(50, 42);
         	this.label1.Name = "label1";
-        	this.label1.Size = new System.Drawing.Size(46, 13);
+        	this.label1.Size = new System.Drawing.Size(116, 25);
         	this.label1.TabIndex = 6;
         	this.label1.Text = "Usuario:";
         	// 
         	// label2
         	// 
         	this.label2.AutoSize = true;
-        	this.label2.ForeColor = System.Drawing.Color.White;
-        	this.label2.Location = new System.Drawing.Point(10, 54);
+        	this.label2.BackColor = System.Drawing.Color.Transparent;
+        	this.label2.Font = new System.Drawing.Font("Unispace", 15.75F, System.Drawing.FontStyle.Bold);
+        	this.label2.ForeColor = System.Drawing.Color.Black;
+        	this.label2.Location = new System.Drawing.Point(50, 89);
         	this.label2.Name = "label2";
-        	this.label2.Size = new System.Drawing.Size(64, 13);
+        	this.label2.Size = new System.Drawing.Size(155, 25);
         	this.label2.TabIndex = 5;
         	this.label2.Text = "Contraseña:";
         	// 
         	// rbEspanol
         	// 
         	this.rbEspanol.AutoSize = true;
-        	this.rbEspanol.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rbEspanol.BackgroundImage")));
+        	this.rbEspanol.BackColor = System.Drawing.Color.Transparent;
         	this.rbEspanol.Checked = true;
         	this.rbEspanol.ForeColor = System.Drawing.Color.White;
-        	this.rbEspanol.Location = new System.Drawing.Point(80, 115);
+        	this.rbEspanol.Image = ((System.Drawing.Image)(resources.GetObject("rbEspanol.Image")));
+        	this.rbEspanol.Location = new System.Drawing.Point(306, 192);
         	this.rbEspanol.Name = "rbEspanol";
-        	this.rbEspanol.Size = new System.Drawing.Size(63, 17);
+        	this.rbEspanol.Size = new System.Drawing.Size(62, 32);
         	this.rbEspanol.TabIndex = 3;
         	this.rbEspanol.TabStop = true;
-        	this.rbEspanol.Text = "Español";
+        	this.rbEspanol.UseVisualStyleBackColor = false;
         	this.rbEspanol.CheckedChanged += new System.EventHandler(this.rbIdioma_CheckedChanged);
         	// 
         	// rbIngles
         	// 
         	this.rbIngles.AutoSize = true;
+        	this.rbIngles.BackColor = System.Drawing.Color.Transparent;
         	this.rbIngles.ForeColor = System.Drawing.Color.White;
         	this.rbIngles.Image = ((System.Drawing.Image)(resources.GetObject("rbIngles.Image")));
-        	this.rbIngles.Location = new System.Drawing.Point(171, 115);
+        	this.rbIngles.Location = new System.Drawing.Point(385, 196);
         	this.rbIngles.Name = "rbIngles";
         	this.rbIngles.Size = new System.Drawing.Size(62, 25);
         	this.rbIngles.TabIndex = 4;
-        	this.rbIngles.Text = "English";
+        	this.rbIngles.UseVisualStyleBackColor = false;
         	this.rbIngles.CheckedChanged += new System.EventHandler(this.rbIdioma_CheckedChanged);
+        	// 
+        	// pictureBox1
+        	// 
+        	this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+        	this.pictureBox1.Location = new System.Drawing.Point(12, 82);
+        	this.pictureBox1.Name = "pictureBox1";
+        	this.pictureBox1.Size = new System.Drawing.Size(32, 34);
+        	this.pictureBox1.TabIndex = 7;
+        	this.pictureBox1.TabStop = false;
+        	// 
+        	// pictureBox2
+        	// 
+        	this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+        	this.pictureBox2.Location = new System.Drawing.Point(12, 42);
+        	this.pictureBox2.Name = "pictureBox2";
+        	this.pictureBox2.Size = new System.Drawing.Size(32, 37);
+        	this.pictureBox2.TabIndex = 8;
+        	this.pictureBox2.TabStop = false;
+        	// 
+        	// pictureBox3
+        	// 
+        	this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+        	this.pictureBox3.Location = new System.Drawing.Point(393, 140);
+        	this.pictureBox3.Name = "pictureBox3";
+        	this.pictureBox3.Size = new System.Drawing.Size(54, 50);
+        	this.pictureBox3.TabIndex = 9;
+        	this.pictureBox3.TabStop = false;
         	// 
         	// FormLogin
         	// 
         	this.BackColor = System.Drawing.SystemColors.ActiveCaption;
         	this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
         	this.ClientSize = new System.Drawing.Size(476, 233);
+        	this.Controls.Add(this.pictureBox3);
+        	this.Controls.Add(this.pictureBox2);
+        	this.Controls.Add(this.pictureBox1);
         	this.Controls.Add(this.rbIngles);
         	this.Controls.Add(this.rbEspanol);
         	this.Controls.Add(this.label2);
@@ -126,12 +173,19 @@ namespace PlataformaEducativa.Forms
         	this.Controls.Add(this.btnLogin);
         	this.Controls.Add(this.txtPassword);
         	this.Controls.Add(this.txtUsername);
-        	this.Cursor = System.Windows.Forms.Cursors.Hand;
+        	this.Cursor = System.Windows.Forms.Cursors.Arrow;
         	this.Name = "FormLogin";
+        	this.RightToLeftLayout = true;
         	this.Text = "Login Plataforma Educativa";
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
         	this.ResumeLayout(false);
         	this.PerformLayout();
         }
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
 
         // Aplica el idioma seleccionado a todos los textos del formulario
         private void AplicarIdioma()
@@ -227,5 +281,6 @@ namespace PlataformaEducativa.Forms
         }
     }
 }
-    }
+        
+ }
 }
