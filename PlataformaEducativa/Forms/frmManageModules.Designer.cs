@@ -43,6 +43,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.dgvModulos.AllowUserToAddRows = false;
         	this.dgvModulos.AllowUserToDeleteRows = false;
+        	this.dgvModulos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(140)))), ((int)(((byte)(93)))));
         	this.dgvModulos.Location = new System.Drawing.Point(108, 154);
         	this.dgvModulos.MultiSelect = false;
         	this.dgvModulos.Name = "dgvModulos";
@@ -54,14 +55,14 @@ namespace PlataformaEducativa.Forms
         	// 
         	// txtNombreEs
         	// 
-        	this.txtNombreEs.Location = new System.Drawing.Point(215, 71);
+        	this.txtNombreEs.Location = new System.Drawing.Point(225, 71);
         	this.txtNombreEs.Name = "txtNombreEs";
         	this.txtNombreEs.Size = new System.Drawing.Size(180, 20);
         	this.txtNombreEs.TabIndex = 1;
         	// 
         	// txtNombreEn
         	// 
-        	this.txtNombreEn.Location = new System.Drawing.Point(215, 107);
+        	this.txtNombreEn.Location = new System.Drawing.Point(225, 107);
         	this.txtNombreEn.Name = "txtNombreEn";
         	this.txtNombreEn.Size = new System.Drawing.Size(180, 20);
         	this.txtNombreEn.TabIndex = 2;
@@ -102,18 +103,23 @@ namespace PlataformaEducativa.Forms
         	// lblNombreEs
         	// 
         	this.lblNombreEs.AutoSize = true;
+        	this.lblNombreEs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+        	this.lblNombreEs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+        	this.lblNombreEs.Image = ((System.Drawing.Image)(resources.GetObject("lblNombreEs.Image")));
         	this.lblNombreEs.Location = new System.Drawing.Point(108, 74);
         	this.lblNombreEs.Name = "lblNombreEs";
-        	this.lblNombreEs.Size = new System.Drawing.Size(94, 13);
+        	this.lblNombreEs.Size = new System.Drawing.Size(111, 13);
         	this.lblNombreEs.TabIndex = 3;
         	this.lblNombreEs.Text = "Nombre (Español):";
         	// 
         	// lblNombreEn
         	// 
         	this.lblNombreEn.AutoSize = true;
+        	this.lblNombreEn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+        	this.lblNombreEn.Image = ((System.Drawing.Image)(resources.GetObject("lblNombreEn.Image")));
         	this.lblNombreEn.Location = new System.Drawing.Point(108, 110);
         	this.lblNombreEn.Name = "lblNombreEn";
-        	this.lblNombreEn.Size = new System.Drawing.Size(84, 13);
+        	this.lblNombreEn.Size = new System.Drawing.Size(100, 13);
         	this.lblNombreEn.TabIndex = 4;
         	this.lblNombreEn.Text = "Nombre (Inglés):";
         	// 

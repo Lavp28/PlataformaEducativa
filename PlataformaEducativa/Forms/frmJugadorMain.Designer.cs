@@ -114,6 +114,7 @@ namespace PlataformaEducativa.Forms
         	this.dgvRanking.AllowUserToAddRows = false;
         	this.dgvRanking.AllowUserToDeleteRows = false;
         	this.dgvRanking.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+        	this.dgvRanking.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(140)))), ((int)(((byte)(93)))));
         	this.dgvRanking.Location = new System.Drawing.Point(36, 124);
         	this.dgvRanking.Name = "dgvRanking";
         	this.dgvRanking.ReadOnly = true;
@@ -236,6 +237,7 @@ namespace PlataformaEducativa.Forms
         	((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
         	this.ResumeLayout(false);
         	this.PerformLayout();
+
         }
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
