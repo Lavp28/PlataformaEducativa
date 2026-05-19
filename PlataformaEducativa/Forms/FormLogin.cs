@@ -43,21 +43,31 @@ namespace PlataformaEducativa.Forms
         	this.pictureBox1 = new System.Windows.Forms.PictureBox();
         	this.pictureBox2 = new System.Windows.Forms.PictureBox();
         	this.pictureBox3 = new System.Windows.Forms.PictureBox();
+        	this.pictureBox4 = new System.Windows.Forms.PictureBox();
+        	this.pictureBox5 = new System.Windows.Forms.PictureBox();
+        	this.pictureBox6 = new System.Windows.Forms.PictureBox();
+        	this.pictureBox7 = new System.Windows.Forms.PictureBox();
+        	this.pictureBox8 = new System.Windows.Forms.PictureBox();
         	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
         	((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
         	((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
         	this.SuspendLayout();
         	// 
         	// txtUsername
         	// 
-        	this.txtUsername.Location = new System.Drawing.Point(212, 42);
+        	this.txtUsername.Location = new System.Drawing.Point(246, 42);
         	this.txtUsername.Name = "txtUsername";
         	this.txtUsername.Size = new System.Drawing.Size(150, 20);
         	this.txtUsername.TabIndex = 0;
         	// 
         	// txtPassword
         	// 
-        	this.txtPassword.Location = new System.Drawing.Point(212, 94);
+        	this.txtPassword.Location = new System.Drawing.Point(246, 94);
         	this.txtPassword.Name = "txtPassword";
         	this.txtPassword.PasswordChar = '*';
         	this.txtPassword.Size = new System.Drawing.Size(150, 20);
@@ -66,9 +76,9 @@ namespace PlataformaEducativa.Forms
         	// btnLogin
         	// 
         	this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-        	this.btnLogin.Font = new System.Drawing.Font("Unispace", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+        	this.btnLogin.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.btnLogin.ForeColor = System.Drawing.Color.Black;
-        	this.btnLogin.Location = new System.Drawing.Point(231, 137);
+        	this.btnLogin.Location = new System.Drawing.Point(265, 137);
         	this.btnLogin.Name = "btnLogin";
         	this.btnLogin.Size = new System.Drawing.Size(118, 33);
         	this.btnLogin.TabIndex = 2;
@@ -80,11 +90,11 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.label1.AutoSize = true;
         	this.label1.BackColor = System.Drawing.Color.Transparent;
-        	this.label1.Font = new System.Drawing.Font("Unispace", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+        	this.label1.Font = new System.Drawing.Font("Kristen ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.label1.ForeColor = System.Drawing.Color.Black;
-        	this.label1.Location = new System.Drawing.Point(50, 42);
+        	this.label1.Location = new System.Drawing.Point(50, 37);
         	this.label1.Name = "label1";
-        	this.label1.Size = new System.Drawing.Size(116, 25);
+        	this.label1.Size = new System.Drawing.Size(123, 33);
         	this.label1.TabIndex = 6;
         	this.label1.Text = "Usuario:";
         	// 
@@ -92,11 +102,11 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.label2.AutoSize = true;
         	this.label2.BackColor = System.Drawing.Color.Transparent;
-        	this.label2.Font = new System.Drawing.Font("Unispace", 15.75F, System.Drawing.FontStyle.Bold);
+        	this.label2.Font = new System.Drawing.Font("Kristen ITC", 18F, System.Drawing.FontStyle.Bold);
         	this.label2.ForeColor = System.Drawing.Color.Black;
         	this.label2.Location = new System.Drawing.Point(50, 89);
         	this.label2.Name = "label2";
-        	this.label2.Size = new System.Drawing.Size(155, 25);
+        	this.label2.Size = new System.Drawing.Size(168, 33);
         	this.label2.TabIndex = 5;
         	this.label2.Text = "Contraseña:";
         	// 
@@ -132,7 +142,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
         	this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-        	this.pictureBox1.Location = new System.Drawing.Point(12, 82);
+        	this.pictureBox1.Location = new System.Drawing.Point(12, 88);
         	this.pictureBox1.Name = "pictureBox1";
         	this.pictureBox1.Size = new System.Drawing.Size(32, 34);
         	this.pictureBox1.TabIndex = 7;
@@ -142,7 +152,7 @@ namespace PlataformaEducativa.Forms
         	// 
         	this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
         	this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-        	this.pictureBox2.Location = new System.Drawing.Point(12, 42);
+        	this.pictureBox2.Location = new System.Drawing.Point(12, 37);
         	this.pictureBox2.Name = "pictureBox2";
         	this.pictureBox2.Size = new System.Drawing.Size(32, 37);
         	this.pictureBox2.TabIndex = 8;
@@ -158,11 +168,66 @@ namespace PlataformaEducativa.Forms
         	this.pictureBox3.TabIndex = 9;
         	this.pictureBox3.TabStop = false;
         	// 
+        	// pictureBox4
+        	// 
+        	this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+        	this.pictureBox4.Location = new System.Drawing.Point(12, 154);
+        	this.pictureBox4.Name = "pictureBox4";
+        	this.pictureBox4.Size = new System.Drawing.Size(80, 70);
+        	this.pictureBox4.TabIndex = 10;
+        	this.pictureBox4.TabStop = false;
+        	// 
+        	// pictureBox5
+        	// 
+        	this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+        	this.pictureBox5.Location = new System.Drawing.Point(215, 176);
+        	this.pictureBox5.Name = "pictureBox5";
+        	this.pictureBox5.Size = new System.Drawing.Size(63, 59);
+        	this.pictureBox5.TabIndex = 11;
+        	this.pictureBox5.TabStop = false;
+        	// 
+        	// pictureBox6
+        	// 
+        	this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+        	this.pictureBox6.Location = new System.Drawing.Point(173, 180);
+        	this.pictureBox6.Name = "pictureBox6";
+        	this.pictureBox6.Size = new System.Drawing.Size(55, 50);
+        	this.pictureBox6.TabIndex = 12;
+        	this.pictureBox6.TabStop = false;
+        	// 
+        	// pictureBox7
+        	// 
+        	this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+        	this.pictureBox7.Location = new System.Drawing.Point(193, 24);
+        	this.pictureBox7.Name = "pictureBox7";
+        	this.pictureBox7.Size = new System.Drawing.Size(25, 28);
+        	this.pictureBox7.TabIndex = 13;
+        	this.pictureBox7.TabStop = false;
+        	// 
+        	// pictureBox8
+        	// 
+        	this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+        	this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+        	this.pictureBox8.Location = new System.Drawing.Point(117, 164);
+        	this.pictureBox8.Name = "pictureBox8";
+        	this.pictureBox8.Size = new System.Drawing.Size(26, 15);
+        	this.pictureBox8.TabIndex = 14;
+        	this.pictureBox8.TabStop = false;
+        	// 
         	// FormLogin
         	// 
         	this.BackColor = System.Drawing.SystemColors.ActiveCaption;
         	this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
         	this.ClientSize = new System.Drawing.Size(476, 233);
+        	this.Controls.Add(this.pictureBox8);
+        	this.Controls.Add(this.pictureBox7);
+        	this.Controls.Add(this.pictureBox6);
+        	this.Controls.Add(this.pictureBox5);
+        	this.Controls.Add(this.pictureBox4);
         	this.Controls.Add(this.pictureBox3);
         	this.Controls.Add(this.pictureBox2);
         	this.Controls.Add(this.pictureBox1);
@@ -180,12 +245,23 @@ namespace PlataformaEducativa.Forms
         	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
         	((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
         	((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+        	((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
         	this.ResumeLayout(false);
         	this.PerformLayout();
+
         }
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
 
         // Aplica el idioma seleccionado a todos los textos del formulario
         private void AplicarIdioma()
