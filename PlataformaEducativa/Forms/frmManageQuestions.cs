@@ -20,9 +20,22 @@ namespace PlataformaEducativa.Forms
         private int selectedQuestionId = -1;
         private int selectedModuleId = -1;
 
+        // Arreglos renombrados con prefijo 'arr' para evitar conflictos CS0102
+        private TextBox[] arrTxtOpcionEs;
+        private TextBox[] arrTxtOpcionEn;
+        private Label[] arrLabelOpcion;
+        private RadioButton[] arrRbCorrecta;
+
         public frmManageQuestions()
         {
             InitializeComponent();
+
+            // Inicializamos los arreglos apuntando a tus controles del diseñador
+            arrTxtOpcionEs = new TextBox[] { txtOpcionEs1, txtOpcionEs2, txtOpcionEs3, txtOpcionEs4 };
+            arrTxtOpcionEn = new TextBox[] { txtOpcionEn1, txtOpcionEn2, txtOpcionEn3, txtOpcionEn4 };
+            arrLabelOpcion = new Label[] { labelOpcion1, labelOpcion2, labelOpcion3, labelOpcion4 };
+            arrRbCorrecta = new RadioButton[] { rbCorrecta1, rbCorrecta2, rbCorrecta3, rbCorrecta4 };
+
             CargarModulos();
             AplicarIdioma();
         }
@@ -52,44 +65,43 @@ namespace PlataformaEducativa.Forms
             dgvPreguntas.DataSource = dt;
             if (dt.Rows.Count > 0)
             {
-                if (dgvPreguntas.Columns["QuestionID"] != null) dgvPreguntas.Columns["QuestionID"].Visible = false;
-                if (dgvPreguntas.Columns["QuestionText_Es"] != null) dgvPreguntas.Columns["QuestionText_Es"].HeaderText = LanguageManager.GetText("question_es");
-                if (dgvPreguntas.Columns["QuestionText_En"] != null) dgvPreguntas.Columns["QuestionText_En"].HeaderText = LanguageManager.GetText("question_en");
+                dgvPreguntas.Columns["QuestionID"].Visible = false;
+                dgvPreguntas.Columns["QuestionText_Es"].HeaderText = LanguageManager.GetText("question_es");
+                dgvPreguntas.Columns["QuestionText_En"].HeaderText = LanguageManager.GetText("question_en");
             }
             LimpiarFormulario();
         }
 
         private void dgvPreguntas_SelectionChanged(object sender, EventArgs e)
-{
-    if (dgvPreguntas.CurrentRow != null)
-    {
-        selectedQuestionId = Convert.ToInt32(dgvPreguntas.CurrentRow.Cells["QuestionID"].Value);
-        
-        // Versión compatible con versiones antiguas de C#
-        object valEs = dgvPreguntas.CurrentRow.Cells["QuestionText_Es"].Value;
-        txtPreguntaEs.Text = (valEs != null) ? valEs.ToString() : "";
+        {
+            if (dgvPreguntas.CurrentRow != null)
+            {
+                selectedQuestionId = Convert.ToInt32(dgvPreguntas.CurrentRow.Cells["QuestionID"].Value);
+                
+                // Sintaxis clásica compatible con SharpDevelop
+                object valEs = dgvPreguntas.CurrentRow.Cells["QuestionText_Es"].Value;
+                txtPreguntaEs.Text = (valEs != null) ? valEs.ToString() : "";
 
-        object valEn = dgvPreguntas.CurrentRow.Cells["QuestionText_En"].Value;
-        txtPreguntaEn.Text = (valEn != null) ? valEn.ToString() : "";
-        
-        if (dgvPreguntas.CurrentRow.Cells["ImagePath"].Value != DBNull.Value)
-        {
-            object valImg = dgvPreguntas.CurrentRow.Cells["ImagePath"].Value;
-            txtImagePath.Text = (valImg != null) ? valImg.ToString() : "";
-        }
-        else
-        {
-            txtImagePath.Clear();
-        }
+                object valEn = dgvPreguntas.CurrentRow.Cells["QuestionText_En"].Value;
+                txtPreguntaEn.Text = (valEn != null) ? valEn.ToString() : "";
 
-        Question q = QuestionDAL.GetQuestionWithOptions(selectedQuestionId);
-        // Evitamos el uso de ?. y usamos validación tradicional
-        if (q != null && q.Options != null)
-        {
-            // Lógica adicional si fuera necesario
+                if (dgvPreguntas.CurrentRow.Cells["ImagePath"].Value != DBNull.Value)
+                    txtImagePath.Text = dgvPreguntas.CurrentRow.Cells["ImagePath"].Value.ToString();
+                else
+                    txtImagePath.Clear();
+
+                Question q = QuestionDAL.GetQuestionWithOptions(selectedQuestionId);
+                if (q != null && q.Options != null)
+                {
+                    for (int i = 0; i < q.Options.Count && i < 4; i++)
+                    {
+                        arrTxtOpcionEs[i].Text = q.Options[i].Text_Es;
+                        arrTxtOpcionEn[i].Text = q.Options[i].Text_En;
+                        arrRbCorrecta[i].Checked = q.Options[i].IsCorrect;
+                    }
+                }
+            }
         }
-    }
-}
 
         private void btnExaminarImagen_Click(object sender, EventArgs e)
         {
@@ -103,7 +115,11 @@ namespace PlataformaEducativa.Forms
         {
             if (!ValidarCampos()) return;
             List<Option> opciones = ObtenerOpciones();
-            
+            if (!HayUnaCorrecta(opciones))
+            {
+                MessageBox.Show(LanguageManager.GetText("select_correct_option"));
+                return;
+            }
             string imagen = string.IsNullOrEmpty(txtImagePath.Text) ? null : txtImagePath.Text;
             if (QuestionDAL.AddQuestion(selectedModuleId, txtPreguntaEs.Text, txtPreguntaEn.Text, imagen, opciones))
             {
@@ -124,7 +140,11 @@ namespace PlataformaEducativa.Forms
             }
             if (!ValidarCampos()) return;
             List<Option> opciones = ObtenerOpciones();
-            
+            if (!HayUnaCorrecta(opciones))
+            {
+                MessageBox.Show(LanguageManager.GetText("select_correct_option"));
+                return;
+            }
             string imagen = string.IsNullOrEmpty(txtImagePath.Text) ? null : txtImagePath.Text;
             if (QuestionDAL.UpdateQuestion(selectedQuestionId, txtPreguntaEs.Text, txtPreguntaEn.Text, imagen, opciones))
             {
@@ -161,13 +181,37 @@ namespace PlataformaEducativa.Forms
                 MessageBox.Show(LanguageManager.GetText("fill_question"));
                 return false;
             }
+            for (int i = 0; i < 4; i++)
+            {
+                if (string.IsNullOrEmpty(arrTxtOpcionEs[i].Text) || string.IsNullOrEmpty(arrTxtOpcionEn[i].Text))
+                {
+                    MessageBox.Show(LanguageManager.GetText("fill_all_options"));
+                    return false;
+                }
+            }
             return true;
         }
 
         private List<Option> ObtenerOpciones()
         {
-            // Retorna una lista vacía o valores predeterminados para evitar romper la firma de la capa DAL
-            return new List<Option>();
+            List<Option> opts = new List<Option>();
+            for (int i = 0; i < 4; i++)
+            {
+                opts.Add(new Option
+                {
+                    Text_Es = arrTxtOpcionEs[i].Text,
+                    Text_En = arrTxtOpcionEn[i].Text,
+                    IsCorrect = arrRbCorrecta[i].Checked
+                });
+            }
+            return opts;
+        }
+
+        private bool HayUnaCorrecta(List<Option> opts)
+        {
+            foreach (var opt in opts)
+                if (opt.IsCorrect) return true;
+            return false;
         }
 
         private void LimpiarFormulario()
@@ -176,23 +220,30 @@ namespace PlataformaEducativa.Forms
             txtPreguntaEs.Clear();
             txtPreguntaEn.Clear();
             txtImagePath.Clear();
+            for (int i = 0; i < 4; i++)
+            {
+                arrTxtOpcionEs[i].Clear();
+                arrTxtOpcionEn[i].Clear();
+                arrRbCorrecta[i].Checked = false;
+            }
         }
 
         private void AplicarIdioma()
         {
-            this.Text = LanguageManager.GetText("manage_questions_title") ?? "Gestionar Preguntas";
-            
-            // Verificaciones de nulos para controles antes de asignar texto
-            if (btnAgregar != null) btnAgregar.Text = LanguageManager.GetText("add");
-            if (btnActualizar != null) btnActualizar.Text = LanguageManager.GetText("update");
-            if (btnEliminar != null) btnEliminar.Text = LanguageManager.GetText("delete");
-            if (btnExaminarImagen != null) btnExaminarImagen.Text = LanguageManager.GetText("browse");
-            
-            // Mapeo seguro con los textos fijos de tu UI (Módulo, Pregunta (Español), Pregunta (Inglés), Imagen (ruta))
-            if (labelModulo != null) labelModulo.Text = LanguageManager.GetText("module");
-            if (labelPreguntaEs != null) labelPreguntaEs.Text = LanguageManager.GetText("question_es") + ":";
-            if (labelPreguntaEn != null) labelPreguntaEn.Text = LanguageManager.GetText("question_en") + ":";
-            if (labelImagen != null) labelImagen.Text = LanguageManager.GetText("image_path") + ":";
+            this.Text = LanguageManager.GetText("manage_questions_title");
+            btnAgregar.Text = LanguageManager.GetText("add");
+            btnActualizar.Text = LanguageManager.GetText("update");
+            btnEliminar.Text = LanguageManager.GetText("delete");
+            btnExaminarImagen.Text = LanguageManager.GetText("browse");
+            labelModulo.Text = LanguageManager.GetText("module");
+            labelPreguntaEs.Text = LanguageManager.GetText("question_es") + ":";
+            labelPreguntaEn.Text = LanguageManager.GetText("question_en") + ":";
+            labelImagen.Text = LanguageManager.GetText("image_path") + ":";
+            for (int i = 0; i < 4; i++)
+            {
+                arrLabelOpcion[i].Text = LanguageManager.GetText("option") + " " + (i + 1) + ":";
+                arrRbCorrecta[i].Text = LanguageManager.GetText("correct");
+            }
         }
     }
 }
