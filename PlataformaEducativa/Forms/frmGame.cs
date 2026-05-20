@@ -21,6 +21,10 @@ namespace PlataformaEducativa.Forms
             _jugador = jugador;
             _moduleId = moduleId;
             this.StartPosition = FormStartPosition.CenterScreen;
+            
+            // ASIGNACIÓN DEL EVENTO: Esto intercepta el botón de cerrar (X) automáticamente
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmGame_FormClosing);
+
             CargarPreguntasNoRespondidas();
             AplicarIdioma();
         }
@@ -145,6 +149,16 @@ namespace PlataformaEducativa.Forms
             btnCambiarIdioma.Text = _idiomaEspañol ? "English" : "Español";
             if (_currentQuestion != null)
                 CargarPreguntaActual();
+        }
+
+        // CONTROLADOR DE CIERRE (OPCIÓN 2): Cancela el cierre definitivo y solo esconde el formulario
+        private void frmGame_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true; 
+                this.Hide();     
+            }
         }
 
         private void frmGame_FormClosed(object sender, FormClosedEventArgs e)

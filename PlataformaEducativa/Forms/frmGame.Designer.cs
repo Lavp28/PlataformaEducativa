@@ -145,6 +145,7 @@ namespace PlataformaEducativa.Forms
         	this.Controls.Add(this.lblPregunta);
         	this.Name = "frmGame";
         	this.Text = "Responder preguntas";
+        	this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmGame_FormClosing);
         	this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmGame_FormClosed);
         	((System.ComponentModel.ISupportInitialize)(this.picImagen)).EndInit();
         	this.ResumeLayout(false);
